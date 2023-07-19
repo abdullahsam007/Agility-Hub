@@ -1,0 +1,26 @@
+[
+    {
+        "merged": "alihoseinpoor.com.open_settings-merged_res-10:/layout/notification_template_part_chronometer.xml",
+        "source": "alihoseinpoor.com.open_settings-core-1.6.0-3:/layout/notification_template_part_chronometer.xml"
+    },
+    {
+        "merged": "alihoseinpoor.com.open_settings-merged_res-10:/layout/custom_dialog.xml",
+        "source": "alihoseinpoor.com.open_settings-core-1.6.0-3:/layout/custom_dialog.xml"
+    },
+    {
+        "merged": "alihoseinpoor.com.open_settings-merged_res-10:/layout/notification_template_part_time.xml",
+        "source": "alihoseinpoor.com.open_settings-core-1.6.0-3:/layout/notification_template_part_time.xml"
+    },
+    {
+        "merged": "alihoseinpoor.com.open_settings-merged_res-10:/layout/notification_template_icon_group.xml",
+        "source": "alihoseinpoor.com.open_settings-core-1.6.0-3:/layout/notification_template_icon_group.xml"
+    },
+    {
+        "merged": "alihoseinpoor.com.open_settings-merged_res-10:/layout/notification_action_tombstone.xml",
+        "source": "alihoseinpoor.com.open_settings-core-1.6.0-3:/layout/notification_action_tombstone.xml"
+    },
+    {
+        "merged": "alihoseinpoor.com.open_settings-merged_res-10:/layout/notification_action.xml",
+        "source": "alihoseinpoor.com.open_settings-core-1.6.0-3:/layout/notification_action.xml"
+    }
+]

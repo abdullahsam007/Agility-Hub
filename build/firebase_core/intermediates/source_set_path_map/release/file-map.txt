@@ -1,0 +1,14 @@
+io.flutter.plugins.firebase.core.firebase_core-jetified-annotation-experimental-1.1.0-0 /Users/horizongo/.gradle/caches/transforms-3/257525afdcd2c9176fdc00010e8c4603/transformed/jetified-annotation-experimental-1.1.0/res
+io.flutter.plugins.firebase.core.firebase_core-jetified-window-java-1.0.0-beta04-1 /Users/horizongo/.gradle/caches/transforms-3/2a9cb8da4c17567c73c4ef57079eaf93/transformed/jetified-window-java-1.0.0-beta04/res
+io.flutter.plugins.firebase.core.firebase_core-jetified-window-1.0.0-beta04-2 /Users/horizongo/.gradle/caches/transforms-3/3e3ad297e857f2e98c129eded650d5ea/transformed/jetified-window-1.0.0-beta04/res
+io.flutter.plugins.firebase.core.firebase_core-core-1.6.0-3 /Users/horizongo/.gradle/caches/transforms-3/6f902b5ecec8c576a7373318ad266aaf/transformed/core-1.6.0/res
+io.flutter.plugins.firebase.core.firebase_core-jetified-firebase-common-20.1.1-4 /Users/horizongo/.gradle/caches/transforms-3/e35f9580f1cdff6dd05e5884fe70dec3/transformed/jetified-firebase-common-20.1.1/res
+io.flutter.plugins.firebase.core.firebase_core-jetified-play-services-basement-18.0.0-5 /Users/horizongo/.gradle/caches/transforms-3/f83c351fdd5ae63f0e877a4feece5ffb/transformed/jetified-play-services-basement-18.0.0/res
+io.flutter.plugins.firebase.core.firebase_core-main-6 /Users/horizongo/.pub-cache/hosted/pub.dev/firebase_core-1.18.0/android/src/main/res
+io.flutter.plugins.firebase.core.firebase_core-release-7 /Users/horizongo/.pub-cache/hosted/pub.dev/firebase_core-1.18.0/android/src/release/res
+io.flutter.plugins.firebase.core.firebase_core-pngs-8 /Users/horizongo/Downloads/fitnessappcodewithoutinapp/build/firebase_core/generated/res/pngs/release
+io.flutter.plugins.firebase.core.firebase_core-resValues-9 /Users/horizongo/Downloads/fitnessappcodewithoutinapp/build/firebase_core/generated/res/resValues/release
+io.flutter.plugins.firebase.core.firebase_core-rs-10 /Users/horizongo/Downloads/fitnessappcodewithoutinapp/build/firebase_core/generated/res/rs/release
+io.flutter.plugins.firebase.core.firebase_core-mergeReleaseResources-11 /Users/horizongo/Downloads/fitnessappcodewithoutinapp/build/firebase_core/intermediates/incremental/release/mergeReleaseResources/merged.dir
+io.flutter.plugins.firebase.core.firebase_core-mergeReleaseResources-12 /Users/horizongo/Downloads/fitnessappcodewithoutinapp/build/firebase_core/intermediates/incremental/release/mergeReleaseResources/stripped.dir
+io.flutter.plugins.firebase.core.firebase_core-merged_res-13 /Users/horizongo/Downloads/fitnessappcodewithoutinapp/build/firebase_core/intermediates/merged_res/release

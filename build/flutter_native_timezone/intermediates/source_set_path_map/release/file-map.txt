@@ -1,0 +1,12 @@
+com.whelksoft.flutter_native_timezone-jetified-annotation-experimental-1.1.0-0 /Users/horizongo/.gradle/caches/transforms-3/257525afdcd2c9176fdc00010e8c4603/transformed/jetified-annotation-experimental-1.1.0/res
+com.whelksoft.flutter_native_timezone-jetified-window-java-1.0.0-beta04-1 /Users/horizongo/.gradle/caches/transforms-3/2a9cb8da4c17567c73c4ef57079eaf93/transformed/jetified-window-java-1.0.0-beta04/res
+com.whelksoft.flutter_native_timezone-jetified-window-1.0.0-beta04-2 /Users/horizongo/.gradle/caches/transforms-3/3e3ad297e857f2e98c129eded650d5ea/transformed/jetified-window-1.0.0-beta04/res
+com.whelksoft.flutter_native_timezone-core-1.6.0-3 /Users/horizongo/.gradle/caches/transforms-3/6f902b5ecec8c576a7373318ad266aaf/transformed/core-1.6.0/res
+com.whelksoft.flutter_native_timezone-main-4 /Users/horizongo/.pub-cache/hosted/pub.dev/flutter_native_timezone-2.0.0/android/src/main/res
+com.whelksoft.flutter_native_timezone-release-5 /Users/horizongo/.pub-cache/hosted/pub.dev/flutter_native_timezone-2.0.0/android/src/release/res
+com.whelksoft.flutter_native_timezone-pngs-6 /Users/horizongo/Downloads/fitnessappcodewithoutinapp/build/flutter_native_timezone/generated/res/pngs/release
+com.whelksoft.flutter_native_timezone-resValues-7 /Users/horizongo/Downloads/fitnessappcodewithoutinapp/build/flutter_native_timezone/generated/res/resValues/release
+com.whelksoft.flutter_native_timezone-rs-8 /Users/horizongo/Downloads/fitnessappcodewithoutinapp/build/flutter_native_timezone/generated/res/rs/release
+com.whelksoft.flutter_native_timezone-mergeReleaseResources-9 /Users/horizongo/Downloads/fitnessappcodewithoutinapp/build/flutter_native_timezone/intermediates/incremental/release/mergeReleaseResources/merged.dir
+com.whelksoft.flutter_native_timezone-mergeReleaseResources-10 /Users/horizongo/Downloads/fitnessappcodewithoutinapp/build/flutter_native_timezone/intermediates/incremental/release/mergeReleaseResources/stripped.dir
+com.whelksoft.flutter_native_timezone-merged_res-11 /Users/horizongo/Downloads/fitnessappcodewithoutinapp/build/flutter_native_timezone/intermediates/merged_res/release

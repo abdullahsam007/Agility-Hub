@@ -1,0 +1,39 @@
+<variant
+    name="release"
+    package="com.fitness.workouts.weightloss"
+    minSdkVersion="21"
+    targetSdkVersion="30"
+    shrinking="true"
+    mergedManifest="/Users/horizongo/Downloads/fitnessappcodewithoutinapp/build/app/intermediates/merged_manifest/release/AndroidManifest.xml"
+    proguardFiles="/Users/horizongo/Downloads/fitnessappcodewithoutinapp/build/app/intermediates/default_proguard_files/global/proguard-android.txt-7.2.0:/Users/horizongo/developer/flutter/packages/flutter_tools/gradle/flutter_proguard_rules.pro:proguard-rules.pro"
+    partialResultsDir="/Users/horizongo/Downloads/fitnessappcodewithoutinapp/build/app/intermediates/lint_vital_partial_results/release/out">
+  <buildFeatures
+      namespacing="REQUIRED"/>
+  <sourceProviders>
+    <sourceProvider
+        manifest="src/main/AndroidManifest.xml"
+        javaDirectories="src/main/java:src/main/kotlin"
+        resDirectories="src/main/res"
+        assetsDirectories="src/main/assets"/>
+    <sourceProvider
+        manifest="src/release/AndroidManifest.xml"
+        javaDirectories="src/release/java:src/release/kotlin"
+        resDirectories="src/release/res"
+        assetsDirectories="src/release/assets"/>
+  </sourceProviders>
+  <testSourceProviders>
+  </testSourceProviders>
+  <testFixturesSourceProviders>
+  </testFixturesSourceProviders>
+  <manifestPlaceholders>
+    <placeholder
+        name="applicationName"
+        value="android.app.Application" />
+  </manifestPlaceholders>
+  <mainArtifact
+      classOutputs="/Users/horizongo/Downloads/fitnessappcodewithoutinapp/build/app/intermediates/javac/release/classes:/Users/horizongo/Downloads/fitnessappcodewithoutinapp/build/app/tmp/kotlin-classes/release:/Users/horizongo/Downloads/fitnessappcodewithoutinapp/build/app/kotlinToolingMetadata:/Users/horizongo/Downloads/fitnessappcodewithoutinapp/build/app/intermediates/compile_and_runtime_not_namespaced_r_class_jar/release/R.jar"
+      applicationId="com.fitness.workouts.weightloss"
+      generatedSourceFolders="/Users/horizongo/Downloads/fitnessappcodewithoutinapp/build/app/generated/source/buildConfig/release:/Users/horizongo/Downloads/fitnessappcodewithoutinapp/build/app/generated/aidl_source_output_dir/release/out:/Users/horizongo/Downloads/fitnessappcodewithoutinapp/build/app/generated/renderscript_source_output_dir/release/out:/Users/horizongo/Downloads/fitnessappcodewithoutinapp/build/app/generated/ap_generated_sources/release/out"
+      generatedResourceFolders="/Users/horizongo/Downloads/fitnessappcodewithoutinapp/build/app/generated/res/google-services/release:/Users/horizongo/Downloads/fitnessappcodewithoutinapp/build/app/generated/res/rs/release:/Users/horizongo/Downloads/fitnessappcodewithoutinapp/build/app/generated/res/resValues/release">
+  </mainArtifact>
+</variant>

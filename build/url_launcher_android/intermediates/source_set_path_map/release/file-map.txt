@@ -1,0 +1,12 @@
+io.flutter.plugins.urllauncher.url_launcher_android-jetified-annotation-experimental-1.1.0-0 /Users/horizongo/.gradle/caches/transforms-3/257525afdcd2c9176fdc00010e8c4603/transformed/jetified-annotation-experimental-1.1.0/res
+io.flutter.plugins.urllauncher.url_launcher_android-jetified-window-java-1.0.0-beta04-1 /Users/horizongo/.gradle/caches/transforms-3/2a9cb8da4c17567c73c4ef57079eaf93/transformed/jetified-window-java-1.0.0-beta04/res
+io.flutter.plugins.urllauncher.url_launcher_android-jetified-window-1.0.0-beta04-2 /Users/horizongo/.gradle/caches/transforms-3/3e3ad297e857f2e98c129eded650d5ea/transformed/jetified-window-1.0.0-beta04/res
+io.flutter.plugins.urllauncher.url_launcher_android-core-1.6.0-3 /Users/horizongo/.gradle/caches/transforms-3/6f902b5ecec8c576a7373318ad266aaf/transformed/core-1.6.0/res
+io.flutter.plugins.urllauncher.url_launcher_android-main-4 /Users/horizongo/.pub-cache/hosted/pub.dev/url_launcher_android-6.0.17/android/src/main/res
+io.flutter.plugins.urllauncher.url_launcher_android-release-5 /Users/horizongo/.pub-cache/hosted/pub.dev/url_launcher_android-6.0.17/android/src/release/res
+io.flutter.plugins.urllauncher.url_launcher_android-pngs-6 /Users/horizongo/Downloads/fitnessappcodewithoutinapp/build/url_launcher_android/generated/res/pngs/release
+io.flutter.plugins.urllauncher.url_launcher_android-resValues-7 /Users/horizongo/Downloads/fitnessappcodewithoutinapp/build/url_launcher_android/generated/res/resValues/release
+io.flutter.plugins.urllauncher.url_launcher_android-rs-8 /Users/horizongo/Downloads/fitnessappcodewithoutinapp/build/url_launcher_android/generated/res/rs/release
+io.flutter.plugins.urllauncher.url_launcher_android-mergeReleaseResources-9 /Users/horizongo/Downloads/fitnessappcodewithoutinapp/build/url_launcher_android/intermediates/incremental/release/mergeReleaseResources/merged.dir
+io.flutter.plugins.urllauncher.url_launcher_android-mergeReleaseResources-10 /Users/horizongo/Downloads/fitnessappcodewithoutinapp/build/url_launcher_android/intermediates/incremental/release/mergeReleaseResources/stripped.dir
+io.flutter.plugins.urllauncher.url_launcher_android-merged_res-11 /Users/horizongo/Downloads/fitnessappcodewithoutinapp/build/url_launcher_android/intermediates/merged_res/release

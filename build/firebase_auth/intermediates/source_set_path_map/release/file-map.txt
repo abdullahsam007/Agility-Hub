@@ -1,0 +1,17 @@
+io.flutter.plugins.firebase.auth.firebase_auth-browser-1.4.0-0 /Users/horizongo/.gradle/caches/transforms-3/0250e28573f490584403412cec89fff6/transformed/browser-1.4.0/res
+io.flutter.plugins.firebase.auth.firebase_auth-jetified-annotation-experimental-1.1.0-1 /Users/horizongo/.gradle/caches/transforms-3/257525afdcd2c9176fdc00010e8c4603/transformed/jetified-annotation-experimental-1.1.0/res
+io.flutter.plugins.firebase.auth.firebase_auth-jetified-window-java-1.0.0-beta04-2 /Users/horizongo/.gradle/caches/transforms-3/2a9cb8da4c17567c73c4ef57079eaf93/transformed/jetified-window-java-1.0.0-beta04/res
+io.flutter.plugins.firebase.auth.firebase_auth-jetified-window-1.0.0-beta04-3 /Users/horizongo/.gradle/caches/transforms-3/3e3ad297e857f2e98c129eded650d5ea/transformed/jetified-window-1.0.0-beta04/res
+io.flutter.plugins.firebase.auth.firebase_auth-core-1.6.0-4 /Users/horizongo/.gradle/caches/transforms-3/6f902b5ecec8c576a7373318ad266aaf/transformed/core-1.6.0/res
+io.flutter.plugins.firebase.auth.firebase_auth-jetified-play-services-base-17.1.0-5 /Users/horizongo/.gradle/caches/transforms-3/db91f4d3585dbe7630818e0ef318418c/transformed/jetified-play-services-base-17.1.0/res
+io.flutter.plugins.firebase.auth.firebase_auth-jetified-firebase-common-20.1.1-6 /Users/horizongo/.gradle/caches/transforms-3/e35f9580f1cdff6dd05e5884fe70dec3/transformed/jetified-firebase-common-20.1.1/res
+io.flutter.plugins.firebase.auth.firebase_auth-jetified-play-services-basement-18.0.0-7 /Users/horizongo/.gradle/caches/transforms-3/f83c351fdd5ae63f0e877a4feece5ffb/transformed/jetified-play-services-basement-18.0.0/res
+io.flutter.plugins.firebase.auth.firebase_auth-main-8 /Users/horizongo/.pub-cache/hosted/pub.dev/firebase_auth-3.4.2/android/src/main/res
+io.flutter.plugins.firebase.auth.firebase_auth-release-9 /Users/horizongo/.pub-cache/hosted/pub.dev/firebase_auth-3.4.2/android/src/release/res
+io.flutter.plugins.firebase.auth.firebase_auth-pngs-10 /Users/horizongo/Downloads/fitnessappcodewithoutinapp/build/firebase_auth/generated/res/pngs/release
+io.flutter.plugins.firebase.auth.firebase_auth-resValues-11 /Users/horizongo/Downloads/fitnessappcodewithoutinapp/build/firebase_auth/generated/res/resValues/release
+io.flutter.plugins.firebase.auth.firebase_auth-rs-12 /Users/horizongo/Downloads/fitnessappcodewithoutinapp/build/firebase_auth/generated/res/rs/release
+io.flutter.plugins.firebase.auth.firebase_auth-mergeReleaseResources-13 /Users/horizongo/Downloads/fitnessappcodewithoutinapp/build/firebase_auth/intermediates/incremental/release/mergeReleaseResources/merged.dir
+io.flutter.plugins.firebase.auth.firebase_auth-mergeReleaseResources-14 /Users/horizongo/Downloads/fitnessappcodewithoutinapp/build/firebase_auth/intermediates/incremental/release/mergeReleaseResources/stripped.dir
+io.flutter.plugins.firebase.auth.firebase_auth-merged_res-15 /Users/horizongo/Downloads/fitnessappcodewithoutinapp/build/firebase_auth/intermediates/merged_res/release
+io.flutter.plugins.firebase.auth.firebase_auth-packaged_res-16 /Users/horizongo/Downloads/fitnessappcodewithoutinapp/build/firebase_core/intermediates/packaged_res/release

@@ -1,0 +1,18 @@
+[
+    {
+        "merged": "alihoseinpoor.com.open_settings-merged_res-10:/drawable/notification_tile_bg.xml",
+        "source": "alihoseinpoor.com.open_settings-core-1.6.0-3:/drawable/notification_tile_bg.xml"
+    },
+    {
+        "merged": "alihoseinpoor.com.open_settings-merged_res-10:/drawable/notification_icon_background.xml",
+        "source": "alihoseinpoor.com.open_settings-core-1.6.0-3:/drawable/notification_icon_background.xml"
+    },
+    {
+        "merged": "alihoseinpoor.com.open_settings-merged_res-10:/drawable/notification_bg_low.xml",
+        "source": "alihoseinpoor.com.open_settings-core-1.6.0-3:/drawable/notification_bg_low.xml"
+    },
+    {
+        "merged": "alihoseinpoor.com.open_settings-merged_res-10:/drawable/notification_bg.xml",
+        "source": "alihoseinpoor.com.open_settings-core-1.6.0-3:/drawable/notification_bg.xml"
+    }
+]

@@ -1,0 +1,12 @@
+dev.fluttercommunity.plus.androidintent.android_intent_plus-jetified-annotation-experimental-1.1.0-0 /Users/horizongo/.gradle/caches/transforms-3/257525afdcd2c9176fdc00010e8c4603/transformed/jetified-annotation-experimental-1.1.0/res
+dev.fluttercommunity.plus.androidintent.android_intent_plus-jetified-window-java-1.0.0-beta04-1 /Users/horizongo/.gradle/caches/transforms-3/2a9cb8da4c17567c73c4ef57079eaf93/transformed/jetified-window-java-1.0.0-beta04/res
+dev.fluttercommunity.plus.androidintent.android_intent_plus-jetified-window-1.0.0-beta04-2 /Users/horizongo/.gradle/caches/transforms-3/3e3ad297e857f2e98c129eded650d5ea/transformed/jetified-window-1.0.0-beta04/res
+dev.fluttercommunity.plus.androidintent.android_intent_plus-core-1.6.0-3 /Users/horizongo/.gradle/caches/transforms-3/6f902b5ecec8c576a7373318ad266aaf/transformed/core-1.6.0/res
+dev.fluttercommunity.plus.androidintent.android_intent_plus-main-4 /Users/horizongo/.pub-cache/hosted/pub.dev/android_intent_plus-3.1.1+1/android/src/main/res
+dev.fluttercommunity.plus.androidintent.android_intent_plus-release-5 /Users/horizongo/.pub-cache/hosted/pub.dev/android_intent_plus-3.1.1+1/android/src/release/res
+dev.fluttercommunity.plus.androidintent.android_intent_plus-pngs-6 /Users/horizongo/Downloads/fitnessappcodewithoutinapp/build/android_intent_plus/generated/res/pngs/release
+dev.fluttercommunity.plus.androidintent.android_intent_plus-resValues-7 /Users/horizongo/Downloads/fitnessappcodewithoutinapp/build/android_intent_plus/generated/res/resValues/release
+dev.fluttercommunity.plus.androidintent.android_intent_plus-rs-8 /Users/horizongo/Downloads/fitnessappcodewithoutinapp/build/android_intent_plus/generated/res/rs/release
+dev.fluttercommunity.plus.androidintent.android_intent_plus-mergeReleaseResources-9 /Users/horizongo/Downloads/fitnessappcodewithoutinapp/build/android_intent_plus/intermediates/incremental/release/mergeReleaseResources/merged.dir
+dev.fluttercommunity.plus.androidintent.android_intent_plus-mergeReleaseResources-10 /Users/horizongo/Downloads/fitnessappcodewithoutinapp/build/android_intent_plus/intermediates/incremental/release/mergeReleaseResources/stripped.dir
+dev.fluttercommunity.plus.androidintent.android_intent_plus-merged_res-11 /Users/horizongo/Downloads/fitnessappcodewithoutinapp/build/android_intent_plus/intermediates/merged_res/release

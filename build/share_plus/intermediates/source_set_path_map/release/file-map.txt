@@ -1,0 +1,14 @@
+dev.fluttercommunity.plus.share.share_plus-jetified-annotation-experimental-1.1.0-0 /Users/horizongo/.gradle/caches/transforms-3/257525afdcd2c9176fdc00010e8c4603/transformed/jetified-annotation-experimental-1.1.0/res
+dev.fluttercommunity.plus.share.share_plus-jetified-window-java-1.0.0-beta04-1 /Users/horizongo/.gradle/caches/transforms-3/2a9cb8da4c17567c73c4ef57079eaf93/transformed/jetified-window-java-1.0.0-beta04/res
+dev.fluttercommunity.plus.share.share_plus-jetified-window-1.0.0-beta04-2 /Users/horizongo/.gradle/caches/transforms-3/3e3ad297e857f2e98c129eded650d5ea/transformed/jetified-window-1.0.0-beta04/res
+dev.fluttercommunity.plus.share.share_plus-lifecycle-runtime-2.3.1-3 /Users/horizongo/.gradle/caches/transforms-3/755a46f7efec467ab2069231fa1991c2/transformed/lifecycle-runtime-2.3.1/res
+dev.fluttercommunity.plus.share.share_plus-core-1.7.0-4 /Users/horizongo/.gradle/caches/transforms-3/c25d4f1bd00d559c23b40c63b68c967e/transformed/core-1.7.0/res
+dev.fluttercommunity.plus.share.share_plus-jetified-core-ktx-1.7.0-5 /Users/horizongo/.gradle/caches/transforms-3/f6aa88958178a3c456ea0d5ec0c8f4f5/transformed/jetified-core-ktx-1.7.0/res
+dev.fluttercommunity.plus.share.share_plus-main-6 /Users/horizongo/.pub-cache/hosted/pub.dev/share_plus-4.0.10+1/android/src/main/res
+dev.fluttercommunity.plus.share.share_plus-release-7 /Users/horizongo/.pub-cache/hosted/pub.dev/share_plus-4.0.10+1/android/src/release/res
+dev.fluttercommunity.plus.share.share_plus-pngs-8 /Users/horizongo/Downloads/fitnessappcodewithoutinapp/build/share_plus/generated/res/pngs/release
+dev.fluttercommunity.plus.share.share_plus-resValues-9 /Users/horizongo/Downloads/fitnessappcodewithoutinapp/build/share_plus/generated/res/resValues/release
+dev.fluttercommunity.plus.share.share_plus-rs-10 /Users/horizongo/Downloads/fitnessappcodewithoutinapp/build/share_plus/generated/res/rs/release
+dev.fluttercommunity.plus.share.share_plus-mergeReleaseResources-11 /Users/horizongo/Downloads/fitnessappcodewithoutinapp/build/share_plus/intermediates/incremental/release/mergeReleaseResources/merged.dir
+dev.fluttercommunity.plus.share.share_plus-mergeReleaseResources-12 /Users/horizongo/Downloads/fitnessappcodewithoutinapp/build/share_plus/intermediates/incremental/release/mergeReleaseResources/stripped.dir
+dev.fluttercommunity.plus.share.share_plus-merged_res-13 /Users/horizongo/Downloads/fitnessappcodewithoutinapp/build/share_plus/intermediates/merged_res/release

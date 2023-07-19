@@ -1,0 +1,759 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.fitness.workouts.weightloss"
+4    android:versionCode="1"
+5    android:versionName="1.0.0" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="21"
+8-->/Users/horizongo/Downloads/fitnessappcodewithoutinapp/android/app/src/main/AndroidManifest.xml
+9        android:targetSdkVersion="30" />
+9-->/Users/horizongo/Downloads/fitnessappcodewithoutinapp/android/app/src/main/AndroidManifest.xml
+10
+11    <uses-permission android:name="android.permission.INTERNET" />
+11-->/Users/horizongo/Downloads/fitnessappcodewithoutinapp/android/app/src/main/AndroidManifest.xml:5:5-67
+11-->/Users/horizongo/Downloads/fitnessappcodewithoutinapp/android/app/src/main/AndroidManifest.xml:5:22-64
+12    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+12-->/Users/horizongo/Downloads/fitnessappcodewithoutinapp/android/app/src/main/AndroidManifest.xml:6:5-79
+12-->/Users/horizongo/Downloads/fitnessappcodewithoutinapp/android/app/src/main/AndroidManifest.xml:6:22-76
+13    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+13-->/Users/horizongo/Downloads/fitnessappcodewithoutinapp/android/app/src/main/AndroidManifest.xml:7:5-81
+13-->/Users/horizongo/Downloads/fitnessappcodewithoutinapp/android/app/src/main/AndroidManifest.xml:7:22-78
+14    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+14-->/Users/horizongo/Downloads/fitnessappcodewithoutinapp/android/app/src/main/AndroidManifest.xml:8:5-80
+14-->/Users/horizongo/Downloads/fitnessappcodewithoutinapp/android/app/src/main/AndroidManifest.xml:8:22-77
+15    <uses-permission android:name="android.permission.RECEIVE_BOOT_COMPLETED" />
+15-->[:flutter_local_notifications] /Users/horizongo/Downloads/fitnessappcodewithoutinapp/build/flutter_local_notifications/intermediates/merged_manifest/release/AndroidManifest.xml:9:5-81
+15-->[:flutter_local_notifications] /Users/horizongo/Downloads/fitnessappcodewithoutinapp/build/flutter_local_notifications/intermediates/merged_manifest/release/AndroidManifest.xml:9:22-78
+16    <uses-permission android:name="android.permission.VIBRATE" />
+16-->[:flutter_local_notifications] /Users/horizongo/Downloads/fitnessappcodewithoutinapp/build/flutter_local_notifications/intermediates/merged_manifest/release/AndroidManifest.xml:10:5-66
+16-->[:flutter_local_notifications] /Users/horizongo/Downloads/fitnessappcodewithoutinapp/build/flutter_local_notifications/intermediates/merged_manifest/release/AndroidManifest.xml:10:22-63
+17    <uses-permission android:name="android.permission.USE_FULL_SCREEN_INTENT" />
+17-->[:flutter_local_notifications] /Users/horizongo/Downloads/fitnessappcodewithoutinapp/build/flutter_local_notifications/intermediates/merged_manifest/release/AndroidManifest.xml:11:5-81
+17-->[:flutter_local_notifications] /Users/horizongo/Downloads/fitnessappcodewithoutinapp/build/flutter_local_notifications/intermediates/merged_manifest/release/AndroidManifest.xml:11:22-78
+18    <uses-permission android:name="android.permission.SCHEDULE_EXACT_ALARM" />
+18-->[:flutter_local_notifications] /Users/horizongo/Downloads/fitnessappcodewithoutinapp/build/flutter_local_notifications/intermediates/merged_manifest/release/AndroidManifest.xml:12:5-79
+18-->[:flutter_local_notifications] /Users/horizongo/Downloads/fitnessappcodewithoutinapp/build/flutter_local_notifications/intermediates/merged_manifest/release/AndroidManifest.xml:12:22-76
+19
+20    <queries>
+20-->[:flutter_inappwebview] /Users/horizongo/Downloads/fitnessappcodewithoutinapp/build/flutter_inappwebview/intermediates/merged_manifest/release/AndroidManifest.xml:9:5-13:15
+21        <intent>
+21-->[:flutter_inappwebview] /Users/horizongo/Downloads/fitnessappcodewithoutinapp/build/flutter_inappwebview/intermediates/merged_manifest/release/AndroidManifest.xml:10:9-12:18
+22            <action android:name="android.support.customtabs.action.CustomTabsService" />
+22-->[:flutter_inappwebview] /Users/horizongo/Downloads/fitnessappcodewithoutinapp/build/flutter_inappwebview/intermediates/merged_manifest/release/AndroidManifest.xml:11:13-90
+22-->[:flutter_inappwebview] /Users/horizongo/Downloads/fitnessappcodewithoutinapp/build/flutter_inappwebview/intermediates/merged_manifest/release/AndroidManifest.xml:11:21-87
+23        </intent>
+24        <intent>
+24-->[:flutter_tts] /Users/horizongo/Downloads/fitnessappcodewithoutinapp/build/flutter_tts/intermediates/merged_manifest/release/AndroidManifest.xml:10:9-12:18
+25            <action android:name="android.intent.action.TTS_SERVICE" />
+25-->[:flutter_tts] /Users/horizongo/Downloads/fitnessappcodewithoutinapp/build/flutter_tts/intermediates/merged_manifest/release/AndroidManifest.xml:11:13-72
+25-->[:flutter_tts] /Users/horizongo/Downloads/fitnessappcodewithoutinapp/build/flutter_tts/intermediates/merged_manifest/release/AndroidManifest.xml:11:21-69
+26        </intent> <!-- For browser content -->
+27        <intent>
+27-->[com.google.android.gms:play-services-ads-lite:20.6.0] /Users/horizongo/.gradle/caches/transforms-3/c4640db8c14ebdfa7705e73b95695f1b/transformed/jetified-play-services-ads-lite-20.6.0/AndroidManifest.xml:31:9-37:18
+28            <action android:name="android.intent.action.VIEW" />
+28-->[com.google.firebase:firebase-auth:21.0.6] /Users/horizongo/.gradle/caches/transforms-3/e33e5ba9c3729ff4007820cb355034f7/transformed/jetified-firebase-auth-21.0.6/AndroidManifest.xml:34:17-69
+28-->[com.google.firebase:firebase-auth:21.0.6] /Users/horizongo/.gradle/caches/transforms-3/e33e5ba9c3729ff4007820cb355034f7/transformed/jetified-firebase-auth-21.0.6/AndroidManifest.xml:34:25-66
+29
+30            <category android:name="android.intent.category.BROWSABLE" />
+30-->[com.google.firebase:firebase-auth:21.0.6] /Users/horizongo/.gradle/caches/transforms-3/e33e5ba9c3729ff4007820cb355034f7/transformed/jetified-firebase-auth-21.0.6/AndroidManifest.xml:37:17-78
+30-->[com.google.firebase:firebase-auth:21.0.6] /Users/horizongo/.gradle/caches/transforms-3/e33e5ba9c3729ff4007820cb355034f7/transformed/jetified-firebase-auth-21.0.6/AndroidManifest.xml:37:27-75
+31
+32            <data android:scheme="https" />
+32-->[com.google.firebase:firebase-auth:21.0.6] /Users/horizongo/.gradle/caches/transforms-3/e33e5ba9c3729ff4007820cb355034f7/transformed/jetified-firebase-auth-21.0.6/AndroidManifest.xml:39:17-42:51
+32-->[com.google.firebase:firebase-auth:21.0.6] /Users/horizongo/.gradle/caches/transforms-3/e33e5ba9c3729ff4007820cb355034f7/transformed/jetified-firebase-auth-21.0.6/AndroidManifest.xml:42:21-48
+33        </intent>
+34    </queries>
+35
+36    <uses-permission android:name="com.google.android.gms.permission.AD_ID" />
+36-->[com.google.android.gms:play-services-ads-lite:20.6.0] /Users/horizongo/.gradle/caches/transforms-3/c4640db8c14ebdfa7705e73b95695f1b/transformed/jetified-play-services-ads-lite-20.6.0/AndroidManifest.xml:25:5-79
+36-->[com.google.android.gms:play-services-ads-lite:20.6.0] /Users/horizongo/.gradle/caches/transforms-3/c4640db8c14ebdfa7705e73b95695f1b/transformed/jetified-play-services-ads-lite-20.6.0/AndroidManifest.xml:25:22-76
+37    <uses-permission android:name="android.permission.WAKE_LOCK" />
+37-->[com.google.android.gms:play-services-measurement-sdk-api:18.0.3] /Users/horizongo/.gradle/caches/transforms-3/ab8a0321dd512682dc06699897ba5a99/transformed/jetified-play-services-measurement-sdk-api-18.0.3/AndroidManifest.xml:25:5-68
+37-->[com.google.android.gms:play-services-measurement-sdk-api:18.0.3] /Users/horizongo/.gradle/caches/transforms-3/ab8a0321dd512682dc06699897ba5a99/transformed/jetified-play-services-measurement-sdk-api-18.0.3/AndroidManifest.xml:25:22-65
+38    <uses-permission android:name="android.permission.FOREGROUND_SERVICE" />
+38-->[androidx.work:work-runtime:2.7.0] /Users/horizongo/.gradle/caches/transforms-3/4a43d203ea2e248d52600e8e70c6014c/transformed/work-runtime-2.7.0/AndroidManifest.xml:28:5-77
+38-->[androidx.work:work-runtime:2.7.0] /Users/horizongo/.gradle/caches/transforms-3/4a43d203ea2e248d52600e8e70c6014c/transformed/work-runtime-2.7.0/AndroidManifest.xml:28:22-74
+39
+40    <application
+41        android:name="android.app.Application"
+41-->/Users/horizongo/Downloads/fitnessappcodewithoutinapp/android/app/src/main/AndroidManifest.xml:11:9-42
+42        android:allowBackup="false"
+42-->/Users/horizongo/Downloads/fitnessappcodewithoutinapp/android/app/src/main/AndroidManifest.xml:12:9-36
+43        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+43-->[androidx.core:core:1.7.0] /Users/horizongo/.gradle/caches/transforms-3/c25d4f1bd00d559c23b40c63b68c967e/transformed/core-1.7.0/AndroidManifest.xml:24:18-86
+44        android:fullBackupContent="false"
+44-->/Users/horizongo/Downloads/fitnessappcodewithoutinapp/android/app/src/main/AndroidManifest.xml:13:9-42
+45        android:icon="@mipmap/ic_launcher"
+45-->/Users/horizongo/Downloads/fitnessappcodewithoutinapp/android/app/src/main/AndroidManifest.xml:14:9-43
+46        android:label="Agility Hub"
+46-->/Users/horizongo/Downloads/fitnessappcodewithoutinapp/android/app/src/main/AndroidManifest.xml:15:9-36
+47        android:requestLegacyExternalStorage="true"
+47-->/Users/horizongo/Downloads/fitnessappcodewithoutinapp/android/app/src/main/AndroidManifest.xml:17:9-52
+48        android:roundIcon="@mipmap/ic_launcher_round"
+48-->/Users/horizongo/Downloads/fitnessappcodewithoutinapp/android/app/src/main/AndroidManifest.xml:18:9-54
+49        android:supportsRtl="false" >
+49-->/Users/horizongo/Downloads/fitnessappcodewithoutinapp/android/app/src/main/AndroidManifest.xml:16:9-36
+50        <activity
+50-->/Users/horizongo/Downloads/fitnessappcodewithoutinapp/android/app/src/main/AndroidManifest.xml:22:9-47:20
+51            android:name="com.fitness.workouts.weightloss.MainActivity"
+51-->/Users/horizongo/Downloads/fitnessappcodewithoutinapp/android/app/src/main/AndroidManifest.xml:23:13-41
+52            android:configChanges="orientation|keyboardHidden|keyboard|screenSize|smallestScreenSize|locale|layoutDirection|fontScale|screenLayout|density|uiMode"
+52-->/Users/horizongo/Downloads/fitnessappcodewithoutinapp/android/app/src/main/AndroidManifest.xml:24:13-163
+53            android:exported="true"
+53-->/Users/horizongo/Downloads/fitnessappcodewithoutinapp/android/app/src/main/AndroidManifest.xml:25:13-36
+54            android:hardwareAccelerated="true"
+54-->/Users/horizongo/Downloads/fitnessappcodewithoutinapp/android/app/src/main/AndroidManifest.xml:26:13-47
+55            android:launchMode="singleTop"
+55-->/Users/horizongo/Downloads/fitnessappcodewithoutinapp/android/app/src/main/AndroidManifest.xml:27:13-43
+56            android:screenOrientation="portrait"
+56-->/Users/horizongo/Downloads/fitnessappcodewithoutinapp/android/app/src/main/AndroidManifest.xml:28:13-49
+57            android:theme="@style/LaunchTheme"
+57-->/Users/horizongo/Downloads/fitnessappcodewithoutinapp/android/app/src/main/AndroidManifest.xml:29:13-47
+58            android:windowSoftInputMode="stateHidden|stateAlwaysHidden|adjustPan" >
+58-->/Users/horizongo/Downloads/fitnessappcodewithoutinapp/android/app/src/main/AndroidManifest.xml:30:13-82
+59
+60            <!--
+61                 Specifies an Android theme to apply to this Activity as soon as
+62                 the Android process has started. This theme is visible to the user
+63                 while the Flutter UI initializes. After that, this theme continues
+64                 to determine the Window background behind the Flutter UI.
+65            -->
+66            <meta-data
+66-->/Users/horizongo/Downloads/fitnessappcodewithoutinapp/android/app/src/main/AndroidManifest.xml:35:13-37:57
+67                android:name="io.flutter.embedding.android.NormalTheme"
+67-->/Users/horizongo/Downloads/fitnessappcodewithoutinapp/android/app/src/main/AndroidManifest.xml:36:17-72
+68                android:resource="@style/NormalTheme" />
+68-->/Users/horizongo/Downloads/fitnessappcodewithoutinapp/android/app/src/main/AndroidManifest.xml:37:17-54
+69            <meta-data
+69-->/Users/horizongo/Downloads/fitnessappcodewithoutinapp/android/app/src/main/AndroidManifest.xml:39:13-41:55
+70                android:name="io.flutter.embedding.android.SplashScreenDrawable"
+70-->/Users/horizongo/Downloads/fitnessappcodewithoutinapp/android/app/src/main/AndroidManifest.xml:40:17-81
+71                android:resource="@mipmap/ic_splash" />
+71-->/Users/horizongo/Downloads/fitnessappcodewithoutinapp/android/app/src/main/AndroidManifest.xml:41:17-53
+72
+73            <intent-filter>
+73-->/Users/horizongo/Downloads/fitnessappcodewithoutinapp/android/app/src/main/AndroidManifest.xml:43:13-46:29
+74                <action android:name="android.intent.action.MAIN" />
+74-->/Users/horizongo/Downloads/fitnessappcodewithoutinapp/android/app/src/main/AndroidManifest.xml:44:17-69
+74-->/Users/horizongo/Downloads/fitnessappcodewithoutinapp/android/app/src/main/AndroidManifest.xml:44:25-66
+75
+76                <category android:name="android.intent.category.LAUNCHER" />
+76-->/Users/horizongo/Downloads/fitnessappcodewithoutinapp/android/app/src/main/AndroidManifest.xml:45:17-77
+76-->/Users/horizongo/Downloads/fitnessappcodewithoutinapp/android/app/src/main/AndroidManifest.xml:45:27-74
+77            </intent-filter>
+78        </activity>
+79        <!--
+80             Don't delete the meta-data below.
+81             This is used by the Flutter tool to generate GeneratedPluginRegistrant.java
+82        -->
+83        <meta-data
+83-->/Users/horizongo/Downloads/fitnessappcodewithoutinapp/android/app/src/main/AndroidManifest.xml:50:9-52:33
+84            android:name="flutterEmbedding"
+84-->/Users/horizongo/Downloads/fitnessappcodewithoutinapp/android/app/src/main/AndroidManifest.xml:51:13-44
+85            android:value="2" />
+85-->/Users/horizongo/Downloads/fitnessappcodewithoutinapp/android/app/src/main/AndroidManifest.xml:52:13-30
+86        <meta-data
+86-->/Users/horizongo/Downloads/fitnessappcodewithoutinapp/android/app/src/main/AndroidManifest.xml:53:9-55:69
+87            android:name="com.google.android.gms.ads.APPLICATION_ID"
+87-->/Users/horizongo/Downloads/fitnessappcodewithoutinapp/android/app/src/main/AndroidManifest.xml:54:13-69
+88            android:value="ca-app-pub-3940256099942544~1458002511" />
+88-->/Users/horizongo/Downloads/fitnessappcodewithoutinapp/android/app/src/main/AndroidManifest.xml:55:13-67
+89
+90        <service
+90-->[:cloud_firestore] /Users/horizongo/Downloads/fitnessappcodewithoutinapp/build/cloud_firestore/intermediates/merged_manifest/release/AndroidManifest.xml:10:9-14:19
+91            android:name="com.google.firebase.components.ComponentDiscoveryService"
+91-->[:cloud_firestore] /Users/horizongo/Downloads/fitnessappcodewithoutinapp/build/cloud_firestore/intermediates/merged_manifest/release/AndroidManifest.xml:10:18-89
+92            android:directBootAware="true"
+92-->[com.google.firebase:firebase-common:20.1.1] /Users/horizongo/.gradle/caches/transforms-3/e35f9580f1cdff6dd05e5884fe70dec3/transformed/jetified-firebase-common-20.1.1/AndroidManifest.xml:35:13-43
+93            android:exported="false" >
+93-->[com.google.firebase:firebase-auth-ktx:21.0.6] /Users/horizongo/.gradle/caches/transforms-3/76b30fd9cd2235168cf016a9a1cf4b46/transformed/jetified-firebase-auth-ktx-21.0.6/AndroidManifest.xml:10:13-37
+94            <meta-data
+94-->[:cloud_firestore] /Users/horizongo/Downloads/fitnessappcodewithoutinapp/build/cloud_firestore/intermediates/merged_manifest/release/AndroidManifest.xml:11:13-13:85
+95                android:name="com.google.firebase.components:io.flutter.plugins.firebase.firestore.FlutterFirebaseFirestoreRegistrar"
+95-->[:cloud_firestore] /Users/horizongo/Downloads/fitnessappcodewithoutinapp/build/cloud_firestore/intermediates/merged_manifest/release/AndroidManifest.xml:12:17-134
+96                android:value="com.google.firebase.components.ComponentRegistrar" />
+96-->[:cloud_firestore] /Users/horizongo/Downloads/fitnessappcodewithoutinapp/build/cloud_firestore/intermediates/merged_manifest/release/AndroidManifest.xml:13:17-82
+97            <meta-data
+97-->[:firebase_auth] /Users/horizongo/Downloads/fitnessappcodewithoutinapp/build/firebase_auth/intermediates/merged_manifest/release/AndroidManifest.xml:11:13-13:85
+98                android:name="com.google.firebase.components:io.flutter.plugins.firebase.auth.FlutterFirebaseAuthRegistrar"
+98-->[:firebase_auth] /Users/horizongo/Downloads/fitnessappcodewithoutinapp/build/firebase_auth/intermediates/merged_manifest/release/AndroidManifest.xml:12:17-124
+99                android:value="com.google.firebase.components.ComponentRegistrar" />
+99-->[:firebase_auth] /Users/horizongo/Downloads/fitnessappcodewithoutinapp/build/firebase_auth/intermediates/merged_manifest/release/AndroidManifest.xml:13:17-82
+100            <meta-data
+100-->[:firebase_core] /Users/horizongo/Downloads/fitnessappcodewithoutinapp/build/firebase_core/intermediates/merged_manifest/release/AndroidManifest.xml:11:13-13:85
+101                android:name="com.google.firebase.components:io.flutter.plugins.firebase.core.FlutterFirebaseCoreRegistrar"
+101-->[:firebase_core] /Users/horizongo/Downloads/fitnessappcodewithoutinapp/build/firebase_core/intermediates/merged_manifest/release/AndroidManifest.xml:12:17-124
+102                android:value="com.google.firebase.components.ComponentRegistrar" />
+102-->[:firebase_core] /Users/horizongo/Downloads/fitnessappcodewithoutinapp/build/firebase_core/intermediates/merged_manifest/release/AndroidManifest.xml:13:17-82
+103            <meta-data
+103-->[com.google.firebase:firebase-auth-ktx:21.0.6] /Users/horizongo/.gradle/caches/transforms-3/76b30fd9cd2235168cf016a9a1cf4b46/transformed/jetified-firebase-auth-ktx-21.0.6/AndroidManifest.xml:11:13-13:85
+104                android:name="com.google.firebase.components:com.google.firebase.auth.ktx.FirebaseAuthKtxRegistrar"
+104-->[com.google.firebase:firebase-auth-ktx:21.0.6] /Users/horizongo/.gradle/caches/transforms-3/76b30fd9cd2235168cf016a9a1cf4b46/transformed/jetified-firebase-auth-ktx-21.0.6/AndroidManifest.xml:12:17-116
+105                android:value="com.google.firebase.components.ComponentRegistrar" />
+105-->[com.google.firebase:firebase-auth-ktx:21.0.6] /Users/horizongo/.gradle/caches/transforms-3/76b30fd9cd2235168cf016a9a1cf4b46/transformed/jetified-firebase-auth-ktx-21.0.6/AndroidManifest.xml:13:17-82
+106            <meta-data
+106-->[com.google.firebase:firebase-firestore-ktx:24.2.1] /Users/horizongo/.gradle/caches/transforms-3/2b4777b0ddadddd0a255232d4c7ac82c/transformed/jetified-firebase-firestore-ktx-24.2.1/AndroidManifest.xml:15:13-17:85
+107                android:name="com.google.firebase.components:com.google.firebase.firestore.ktx.FirebaseFirestoreKtxRegistrar"
+107-->[com.google.firebase:firebase-firestore-ktx:24.2.1] /Users/horizongo/.gradle/caches/transforms-3/2b4777b0ddadddd0a255232d4c7ac82c/transformed/jetified-firebase-firestore-ktx-24.2.1/AndroidManifest.xml:16:17-126
+108                android:value="com.google.firebase.components.ComponentRegistrar" />
+108-->[com.google.firebase:firebase-firestore-ktx:24.2.1] /Users/horizongo/.gradle/caches/transforms-3/2b4777b0ddadddd0a255232d4c7ac82c/transformed/jetified-firebase-firestore-ktx-24.2.1/AndroidManifest.xml:17:17-82
+109            <meta-data
+109-->[com.google.firebase:firebase-common-ktx:20.1.1] /Users/horizongo/.gradle/caches/transforms-3/674bda7f9394f6110095e1194376c441/transformed/jetified-firebase-common-ktx-20.1.1/AndroidManifest.xml:15:13-17:85
+110                android:name="com.google.firebase.components:com.google.firebase.ktx.FirebaseCommonKtxRegistrar"
+110-->[com.google.firebase:firebase-common-ktx:20.1.1] /Users/horizongo/.gradle/caches/transforms-3/674bda7f9394f6110095e1194376c441/transformed/jetified-firebase-common-ktx-20.1.1/AndroidManifest.xml:16:17-113
+111                android:value="com.google.firebase.components.ComponentRegistrar" />
+111-->[com.google.firebase:firebase-common-ktx:20.1.1] /Users/horizongo/.gradle/caches/transforms-3/674bda7f9394f6110095e1194376c441/transformed/jetified-firebase-common-ktx-20.1.1/AndroidManifest.xml:17:17-82
+112            <meta-data
+112-->[com.google.firebase:firebase-auth:21.0.6] /Users/horizongo/.gradle/caches/transforms-3/e33e5ba9c3729ff4007820cb355034f7/transformed/jetified-firebase-auth-21.0.6/AndroidManifest.xml:67:13-69:85
+113                android:name="com.google.firebase.components:com.google.firebase.auth.FirebaseAuthRegistrar"
+113-->[com.google.firebase:firebase-auth:21.0.6] /Users/horizongo/.gradle/caches/transforms-3/e33e5ba9c3729ff4007820cb355034f7/transformed/jetified-firebase-auth-21.0.6/AndroidManifest.xml:68:17-109
+114                android:value="com.google.firebase.components.ComponentRegistrar" />
+114-->[com.google.firebase:firebase-auth:21.0.6] /Users/horizongo/.gradle/caches/transforms-3/e33e5ba9c3729ff4007820cb355034f7/transformed/jetified-firebase-auth-21.0.6/AndroidManifest.xml:69:17-82
+115            <meta-data
+115-->[com.google.firebase:firebase-firestore:24.2.1] /Users/horizongo/.gradle/caches/transforms-3/7ce3b9fe4873fa4263405a78eff1b900/transformed/jetified-firebase-firestore-24.2.1/AndroidManifest.xml:20:13-22:85
+116                android:name="com.google.firebase.components:com.google.firebase.firestore.FirestoreRegistrar"
+116-->[com.google.firebase:firebase-firestore:24.2.1] /Users/horizongo/.gradle/caches/transforms-3/7ce3b9fe4873fa4263405a78eff1b900/transformed/jetified-firebase-firestore-24.2.1/AndroidManifest.xml:21:17-111
+117                android:value="com.google.firebase.components.ComponentRegistrar" />
+117-->[com.google.firebase:firebase-firestore:24.2.1] /Users/horizongo/.gradle/caches/transforms-3/7ce3b9fe4873fa4263405a78eff1b900/transformed/jetified-firebase-firestore-24.2.1/AndroidManifest.xml:22:17-82
+118        </service>
+119
+120        <receiver
+120-->[:flutter_local_notifications] /Users/horizongo/Downloads/fitnessappcodewithoutinapp/build/flutter_local_notifications/intermediates/merged_manifest/release/AndroidManifest.xml:15:9-17:40
+121            android:name="com.dexterous.flutterlocalnotifications.ScheduledNotificationReceiver"
+121-->[:flutter_local_notifications] /Users/horizongo/Downloads/fitnessappcodewithoutinapp/build/flutter_local_notifications/intermediates/merged_manifest/release/AndroidManifest.xml:16:13-97
+122            android:exported="false" />
+122-->[:flutter_local_notifications] /Users/horizongo/Downloads/fitnessappcodewithoutinapp/build/flutter_local_notifications/intermediates/merged_manifest/release/AndroidManifest.xml:17:13-37
+123        <receiver
+123-->[:flutter_local_notifications] /Users/horizongo/Downloads/fitnessappcodewithoutinapp/build/flutter_local_notifications/intermediates/merged_manifest/release/AndroidManifest.xml:18:9-27:20
+124            android:name="com.dexterous.flutterlocalnotifications.ScheduledNotificationBootReceiver"
+124-->[:flutter_local_notifications] /Users/horizongo/Downloads/fitnessappcodewithoutinapp/build/flutter_local_notifications/intermediates/merged_manifest/release/AndroidManifest.xml:19:13-101
+125            android:exported="false" >
+125-->[:flutter_local_notifications] /Users/horizongo/Downloads/fitnessappcodewithoutinapp/build/flutter_local_notifications/intermediates/merged_manifest/release/AndroidManifest.xml:20:13-37
+126            <intent-filter>
+126-->[:flutter_local_notifications] /Users/horizongo/Downloads/fitnessappcodewithoutinapp/build/flutter_local_notifications/intermediates/merged_manifest/release/AndroidManifest.xml:21:13-26:29
+127                <action android:name="android.intent.action.BOOT_COMPLETED" />
+127-->[:flutter_local_notifications] /Users/horizongo/Downloads/fitnessappcodewithoutinapp/build/flutter_local_notifications/intermediates/merged_manifest/release/AndroidManifest.xml:22:17-79
+127-->[:flutter_local_notifications] /Users/horizongo/Downloads/fitnessappcodewithoutinapp/build/flutter_local_notifications/intermediates/merged_manifest/release/AndroidManifest.xml:22:25-76
+128                <action android:name="android.intent.action.MY_PACKAGE_REPLACED" />
+128-->[:flutter_local_notifications] /Users/horizongo/Downloads/fitnessappcodewithoutinapp/build/flutter_local_notifications/intermediates/merged_manifest/release/AndroidManifest.xml:23:17-84
+128-->[:flutter_local_notifications] /Users/horizongo/Downloads/fitnessappcodewithoutinapp/build/flutter_local_notifications/intermediates/merged_manifest/release/AndroidManifest.xml:23:25-81
+129                <action android:name="android.intent.action.QUICKBOOT_POWERON" />
+129-->[:flutter_local_notifications] /Users/horizongo/Downloads/fitnessappcodewithoutinapp/build/flutter_local_notifications/intermediates/merged_manifest/release/AndroidManifest.xml:24:17-82
+129-->[:flutter_local_notifications] /Users/horizongo/Downloads/fitnessappcodewithoutinapp/build/flutter_local_notifications/intermediates/merged_manifest/release/AndroidManifest.xml:24:25-79
+130                <action android:name="com.htc.intent.action.QUICKBOOT_POWERON" />
+130-->[:flutter_local_notifications] /Users/horizongo/Downloads/fitnessappcodewithoutinapp/build/flutter_local_notifications/intermediates/merged_manifest/release/AndroidManifest.xml:25:17-82
+130-->[:flutter_local_notifications] /Users/horizongo/Downloads/fitnessappcodewithoutinapp/build/flutter_local_notifications/intermediates/merged_manifest/release/AndroidManifest.xml:25:25-79
+131            </intent-filter>
+132        </receiver>
+133
+134        <activity
+134-->[:url_launcher_android] /Users/horizongo/Downloads/fitnessappcodewithoutinapp/build/url_launcher_android/intermediates/merged_manifest/release/AndroidManifest.xml:10:9-13:74
+135            android:name="io.flutter.plugins.urllauncher.WebViewActivity"
+135-->[:url_launcher_android] /Users/horizongo/Downloads/fitnessappcodewithoutinapp/build/url_launcher_android/intermediates/merged_manifest/release/AndroidManifest.xml:11:13-74
+136            android:exported="false"
+136-->[:url_launcher_android] /Users/horizongo/Downloads/fitnessappcodewithoutinapp/build/url_launcher_android/intermediates/merged_manifest/release/AndroidManifest.xml:12:13-37
+137            android:theme="@android:style/Theme.NoTitleBar.Fullscreen" />
+137-->[:url_launcher_android] /Users/horizongo/Downloads/fitnessappcodewithoutinapp/build/url_launcher_android/intermediates/merged_manifest/release/AndroidManifest.xml:13:13-71
+138        <activity
+138-->[:flutter_inappwebview] /Users/horizongo/Downloads/fitnessappcodewithoutinapp/build/flutter_inappwebview/intermediates/merged_manifest/release/AndroidManifest.xml:16:9-20:47
+139            android:name="com.pichillilorenzo.flutter_inappwebview.in_app_browser.InAppBrowserActivity"
+139-->[:flutter_inappwebview] /Users/horizongo/Downloads/fitnessappcodewithoutinapp/build/flutter_inappwebview/intermediates/merged_manifest/release/AndroidManifest.xml:17:13-104
+140            android:configChanges="orientation|keyboardHidden|keyboard|screenSize|locale|layoutDirection|fontScale|screenLayout|density"
+140-->[:flutter_inappwebview] /Users/horizongo/Downloads/fitnessappcodewithoutinapp/build/flutter_inappwebview/intermediates/merged_manifest/release/AndroidManifest.xml:18:13-137
+141            android:exported="true"
+141-->[:flutter_inappwebview] /Users/horizongo/Downloads/fitnessappcodewithoutinapp/build/flutter_inappwebview/intermediates/merged_manifest/release/AndroidManifest.xml:19:13-36
+142            android:theme="@style/AppTheme" />
+142-->[:flutter_inappwebview] /Users/horizongo/Downloads/fitnessappcodewithoutinapp/build/flutter_inappwebview/intermediates/merged_manifest/release/AndroidManifest.xml:20:13-44
+143        <activity
+143-->[:flutter_inappwebview] /Users/horizongo/Downloads/fitnessappcodewithoutinapp/build/flutter_inappwebview/intermediates/merged_manifest/release/AndroidManifest.xml:21:9-24:55
+144            android:name="com.pichillilorenzo.flutter_inappwebview.chrome_custom_tabs.ChromeCustomTabsActivity"
+144-->[:flutter_inappwebview] /Users/horizongo/Downloads/fitnessappcodewithoutinapp/build/flutter_inappwebview/intermediates/merged_manifest/release/AndroidManifest.xml:22:13-112
+145            android:exported="true"
+145-->[:flutter_inappwebview] /Users/horizongo/Downloads/fitnessappcodewithoutinapp/build/flutter_inappwebview/intermediates/merged_manifest/release/AndroidManifest.xml:23:13-36
+146            android:theme="@style/ThemeTransparent" />
+146-->[:flutter_inappwebview] /Users/horizongo/Downloads/fitnessappcodewithoutinapp/build/flutter_inappwebview/intermediates/merged_manifest/release/AndroidManifest.xml:24:13-52
+147        <activity
+147-->[:flutter_inappwebview] /Users/horizongo/Downloads/fitnessappcodewithoutinapp/build/flutter_inappwebview/intermediates/merged_manifest/release/AndroidManifest.xml:25:9-28:55
+148            android:name="com.pichillilorenzo.flutter_inappwebview.chrome_custom_tabs.TrustedWebActivity"
+148-->[:flutter_inappwebview] /Users/horizongo/Downloads/fitnessappcodewithoutinapp/build/flutter_inappwebview/intermediates/merged_manifest/release/AndroidManifest.xml:26:13-106
+149            android:exported="true"
+149-->[:flutter_inappwebview] /Users/horizongo/Downloads/fitnessappcodewithoutinapp/build/flutter_inappwebview/intermediates/merged_manifest/release/AndroidManifest.xml:27:13-36
+150            android:theme="@style/ThemeTransparent" />
+150-->[:flutter_inappwebview] /Users/horizongo/Downloads/fitnessappcodewithoutinapp/build/flutter_inappwebview/intermediates/merged_manifest/release/AndroidManifest.xml:28:13-52
+151        <activity
+151-->[:flutter_inappwebview] /Users/horizongo/Downloads/fitnessappcodewithoutinapp/build/flutter_inappwebview/intermediates/merged_manifest/release/AndroidManifest.xml:29:9-33:55
+152            android:name="com.pichillilorenzo.flutter_inappwebview.chrome_custom_tabs.ChromeCustomTabsActivitySingleInstance"
+152-->[:flutter_inappwebview] /Users/horizongo/Downloads/fitnessappcodewithoutinapp/build/flutter_inappwebview/intermediates/merged_manifest/release/AndroidManifest.xml:30:13-126
+153            android:exported="true"
+153-->[:flutter_inappwebview] /Users/horizongo/Downloads/fitnessappcodewithoutinapp/build/flutter_inappwebview/intermediates/merged_manifest/release/AndroidManifest.xml:31:13-36
+154            android:launchMode="singleInstance"
+154-->[:flutter_inappwebview] /Users/horizongo/Downloads/fitnessappcodewithoutinapp/build/flutter_inappwebview/intermediates/merged_manifest/release/AndroidManifest.xml:32:13-48
+155            android:theme="@style/ThemeTransparent" />
+155-->[:flutter_inappwebview] /Users/horizongo/Downloads/fitnessappcodewithoutinapp/build/flutter_inappwebview/intermediates/merged_manifest/release/AndroidManifest.xml:33:13-52
+156        <activity
+156-->[:flutter_inappwebview] /Users/horizongo/Downloads/fitnessappcodewithoutinapp/build/flutter_inappwebview/intermediates/merged_manifest/release/AndroidManifest.xml:34:9-38:55
+157            android:name="com.pichillilorenzo.flutter_inappwebview.chrome_custom_tabs.TrustedWebActivitySingleInstance"
+157-->[:flutter_inappwebview] /Users/horizongo/Downloads/fitnessappcodewithoutinapp/build/flutter_inappwebview/intermediates/merged_manifest/release/AndroidManifest.xml:35:13-120
+158            android:exported="true"
+158-->[:flutter_inappwebview] /Users/horizongo/Downloads/fitnessappcodewithoutinapp/build/flutter_inappwebview/intermediates/merged_manifest/release/AndroidManifest.xml:36:13-36
+159            android:launchMode="singleInstance"
+159-->[:flutter_inappwebview] /Users/horizongo/Downloads/fitnessappcodewithoutinapp/build/flutter_inappwebview/intermediates/merged_manifest/release/AndroidManifest.xml:37:13-48
+160            android:theme="@style/ThemeTransparent" />
+160-->[:flutter_inappwebview] /Users/horizongo/Downloads/fitnessappcodewithoutinapp/build/flutter_inappwebview/intermediates/merged_manifest/release/AndroidManifest.xml:38:13-52
+161
+162        <receiver
+162-->[:flutter_inappwebview] /Users/horizongo/Downloads/fitnessappcodewithoutinapp/build/flutter_inappwebview/intermediates/merged_manifest/release/AndroidManifest.xml:40:9-43:40
+163            android:name="com.pichillilorenzo.flutter_inappwebview.chrome_custom_tabs.ActionBroadcastReceiver"
+163-->[:flutter_inappwebview] /Users/horizongo/Downloads/fitnessappcodewithoutinapp/build/flutter_inappwebview/intermediates/merged_manifest/release/AndroidManifest.xml:41:13-111
+164            android:enabled="true"
+164-->[:flutter_inappwebview] /Users/horizongo/Downloads/fitnessappcodewithoutinapp/build/flutter_inappwebview/intermediates/merged_manifest/release/AndroidManifest.xml:42:13-35
+165            android:exported="false" />
+165-->[:flutter_inappwebview] /Users/horizongo/Downloads/fitnessappcodewithoutinapp/build/flutter_inappwebview/intermediates/merged_manifest/release/AndroidManifest.xml:43:13-37
+166
+167        <meta-data
+167-->[:flutter_inappwebview] /Users/horizongo/Downloads/fitnessappcodewithoutinapp/build/flutter_inappwebview/intermediates/merged_manifest/release/AndroidManifest.xml:45:9-47:36
+168            android:name="io.flutter.embedded_views_preview"
+168-->[:flutter_inappwebview] /Users/horizongo/Downloads/fitnessappcodewithoutinapp/build/flutter_inappwebview/intermediates/merged_manifest/release/AndroidManifest.xml:46:13-61
+169            android:value="true" />
+169-->[:flutter_inappwebview] /Users/horizongo/Downloads/fitnessappcodewithoutinapp/build/flutter_inappwebview/intermediates/merged_manifest/release/AndroidManifest.xml:47:13-33
+170
+171        <provider
+171-->[:share_plus] /Users/horizongo/Downloads/fitnessappcodewithoutinapp/build/share_plus/intermediates/merged_manifest/release/AndroidManifest.xml:10:9-18:20
+172            android:name="dev.fluttercommunity.plus.share.ShareFileProvider"
+172-->[:share_plus] /Users/horizongo/Downloads/fitnessappcodewithoutinapp/build/share_plus/intermediates/merged_manifest/release/AndroidManifest.xml:11:13-77
+173            android:authorities="com.fitness.workouts.weightloss.flutter.share_provider"
+173-->[:share_plus] /Users/horizongo/Downloads/fitnessappcodewithoutinapp/build/share_plus/intermediates/merged_manifest/release/AndroidManifest.xml:12:13-74
+174            android:exported="false"
+174-->[:share_plus] /Users/horizongo/Downloads/fitnessappcodewithoutinapp/build/share_plus/intermediates/merged_manifest/release/AndroidManifest.xml:13:13-37
+175            android:grantUriPermissions="true" >
+175-->[:share_plus] /Users/horizongo/Downloads/fitnessappcodewithoutinapp/build/share_plus/intermediates/merged_manifest/release/AndroidManifest.xml:14:13-47
+176            <meta-data
+176-->[:share_plus] /Users/horizongo/Downloads/fitnessappcodewithoutinapp/build/share_plus/intermediates/merged_manifest/release/AndroidManifest.xml:15:13-17:68
+177                android:name="android.support.FILE_PROVIDER_PATHS"
+177-->[:share_plus] /Users/horizongo/Downloads/fitnessappcodewithoutinapp/build/share_plus/intermediates/merged_manifest/release/AndroidManifest.xml:16:17-67
+178                android:resource="@xml/flutter_share_file_paths" />
+178-->[:share_plus] /Users/horizongo/Downloads/fitnessappcodewithoutinapp/build/share_plus/intermediates/merged_manifest/release/AndroidManifest.xml:17:17-65
+179        </provider>
+180
+181        <uses-library
+181-->[androidx.window:window:1.0.0-beta04] /Users/horizongo/.gradle/caches/transforms-3/3e3ad297e857f2e98c129eded650d5ea/transformed/jetified-window-1.0.0-beta04/AndroidManifest.xml:25:9-27:40
+182            android:name="androidx.window.extensions"
+182-->[androidx.window:window:1.0.0-beta04] /Users/horizongo/.gradle/caches/transforms-3/3e3ad297e857f2e98c129eded650d5ea/transformed/jetified-window-1.0.0-beta04/AndroidManifest.xml:26:13-54
+183            android:required="false" />
+183-->[androidx.window:window:1.0.0-beta04] /Users/horizongo/.gradle/caches/transforms-3/3e3ad297e857f2e98c129eded650d5ea/transformed/jetified-window-1.0.0-beta04/AndroidManifest.xml:27:13-37
+184        <uses-library
+184-->[androidx.window:window:1.0.0-beta04] /Users/horizongo/.gradle/caches/transforms-3/3e3ad297e857f2e98c129eded650d5ea/transformed/jetified-window-1.0.0-beta04/AndroidManifest.xml:28:9-30:40
+185            android:name="androidx.window.sidecar"
+185-->[androidx.window:window:1.0.0-beta04] /Users/horizongo/.gradle/caches/transforms-3/3e3ad297e857f2e98c129eded650d5ea/transformed/jetified-window-1.0.0-beta04/AndroidManifest.xml:29:13-51
+186            android:required="false" />
+186-->[androidx.window:window:1.0.0-beta04] /Users/horizongo/.gradle/caches/transforms-3/3e3ad297e857f2e98c129eded650d5ea/transformed/jetified-window-1.0.0-beta04/AndroidManifest.xml:30:13-37
+187
+188        <activity
+188-->[com.google.firebase:firebase-auth:21.0.6] /Users/horizongo/.gradle/caches/transforms-3/e33e5ba9c3729ff4007820cb355034f7/transformed/jetified-firebase-auth-21.0.6/AndroidManifest.xml:27:9-44:20
+189            android:name="com.google.firebase.auth.internal.GenericIdpActivity"
+189-->[com.google.firebase:firebase-auth:21.0.6] /Users/horizongo/.gradle/caches/transforms-3/e33e5ba9c3729ff4007820cb355034f7/transformed/jetified-firebase-auth-21.0.6/AndroidManifest.xml:28:13-80
+190            android:excludeFromRecents="true"
+190-->[com.google.firebase:firebase-auth:21.0.6] /Users/horizongo/.gradle/caches/transforms-3/e33e5ba9c3729ff4007820cb355034f7/transformed/jetified-firebase-auth-21.0.6/AndroidManifest.xml:29:13-46
+191            android:exported="true"
+191-->[com.google.firebase:firebase-auth:21.0.6] /Users/horizongo/.gradle/caches/transforms-3/e33e5ba9c3729ff4007820cb355034f7/transformed/jetified-firebase-auth-21.0.6/AndroidManifest.xml:30:13-36
+192            android:launchMode="singleTask"
+192-->[com.google.firebase:firebase-auth:21.0.6] /Users/horizongo/.gradle/caches/transforms-3/e33e5ba9c3729ff4007820cb355034f7/transformed/jetified-firebase-auth-21.0.6/AndroidManifest.xml:31:13-44
+193            android:theme="@android:style/Theme.Translucent.NoTitleBar" >
+193-->[com.google.firebase:firebase-auth:21.0.6] /Users/horizongo/.gradle/caches/transforms-3/e33e5ba9c3729ff4007820cb355034f7/transformed/jetified-firebase-auth-21.0.6/AndroidManifest.xml:32:13-72
+194            <intent-filter>
+194-->[com.google.firebase:firebase-auth:21.0.6] /Users/horizongo/.gradle/caches/transforms-3/e33e5ba9c3729ff4007820cb355034f7/transformed/jetified-firebase-auth-21.0.6/AndroidManifest.xml:33:13-43:29
+195                <action android:name="android.intent.action.VIEW" />
+195-->[com.google.firebase:firebase-auth:21.0.6] /Users/horizongo/.gradle/caches/transforms-3/e33e5ba9c3729ff4007820cb355034f7/transformed/jetified-firebase-auth-21.0.6/AndroidManifest.xml:34:17-69
+195-->[com.google.firebase:firebase-auth:21.0.6] /Users/horizongo/.gradle/caches/transforms-3/e33e5ba9c3729ff4007820cb355034f7/transformed/jetified-firebase-auth-21.0.6/AndroidManifest.xml:34:25-66
+196
+197                <category android:name="android.intent.category.DEFAULT" />
+197-->[com.google.firebase:firebase-auth:21.0.6] /Users/horizongo/.gradle/caches/transforms-3/e33e5ba9c3729ff4007820cb355034f7/transformed/jetified-firebase-auth-21.0.6/AndroidManifest.xml:36:17-76
+197-->[com.google.firebase:firebase-auth:21.0.6] /Users/horizongo/.gradle/caches/transforms-3/e33e5ba9c3729ff4007820cb355034f7/transformed/jetified-firebase-auth-21.0.6/AndroidManifest.xml:36:27-73
+198                <category android:name="android.intent.category.BROWSABLE" />
+198-->[com.google.firebase:firebase-auth:21.0.6] /Users/horizongo/.gradle/caches/transforms-3/e33e5ba9c3729ff4007820cb355034f7/transformed/jetified-firebase-auth-21.0.6/AndroidManifest.xml:37:17-78
+198-->[com.google.firebase:firebase-auth:21.0.6] /Users/horizongo/.gradle/caches/transforms-3/e33e5ba9c3729ff4007820cb355034f7/transformed/jetified-firebase-auth-21.0.6/AndroidManifest.xml:37:27-75
+199
+200                <data
+200-->[com.google.firebase:firebase-auth:21.0.6] /Users/horizongo/.gradle/caches/transforms-3/e33e5ba9c3729ff4007820cb355034f7/transformed/jetified-firebase-auth-21.0.6/AndroidManifest.xml:39:17-42:51
+201                    android:host="firebase.auth"
+201-->[com.google.firebase:firebase-auth:21.0.6] /Users/horizongo/.gradle/caches/transforms-3/e33e5ba9c3729ff4007820cb355034f7/transformed/jetified-firebase-auth-21.0.6/AndroidManifest.xml:40:21-49
+202                    android:path="/"
+202-->[com.google.firebase:firebase-auth:21.0.6] /Users/horizongo/.gradle/caches/transforms-3/e33e5ba9c3729ff4007820cb355034f7/transformed/jetified-firebase-auth-21.0.6/AndroidManifest.xml:41:21-37
+203                    android:scheme="genericidp" />
+203-->[com.google.firebase:firebase-auth:21.0.6] /Users/horizongo/.gradle/caches/transforms-3/e33e5ba9c3729ff4007820cb355034f7/transformed/jetified-firebase-auth-21.0.6/AndroidManifest.xml:42:21-48
+204            </intent-filter>
+205        </activity>
+206        <activity
+206-->[com.google.firebase:firebase-auth:21.0.6] /Users/horizongo/.gradle/caches/transforms-3/e33e5ba9c3729ff4007820cb355034f7/transformed/jetified-firebase-auth-21.0.6/AndroidManifest.xml:45:9-62:20
+207            android:name="com.google.firebase.auth.internal.RecaptchaActivity"
+207-->[com.google.firebase:firebase-auth:21.0.6] /Users/horizongo/.gradle/caches/transforms-3/e33e5ba9c3729ff4007820cb355034f7/transformed/jetified-firebase-auth-21.0.6/AndroidManifest.xml:46:13-79
+208            android:excludeFromRecents="true"
+208-->[com.google.firebase:firebase-auth:21.0.6] /Users/horizongo/.gradle/caches/transforms-3/e33e5ba9c3729ff4007820cb355034f7/transformed/jetified-firebase-auth-21.0.6/AndroidManifest.xml:47:13-46
+209            android:exported="true"
+209-->[com.google.firebase:firebase-auth:21.0.6] /Users/horizongo/.gradle/caches/transforms-3/e33e5ba9c3729ff4007820cb355034f7/transformed/jetified-firebase-auth-21.0.6/AndroidManifest.xml:48:13-36
+210            android:launchMode="singleTask"
+210-->[com.google.firebase:firebase-auth:21.0.6] /Users/horizongo/.gradle/caches/transforms-3/e33e5ba9c3729ff4007820cb355034f7/transformed/jetified-firebase-auth-21.0.6/AndroidManifest.xml:49:13-44
+211            android:theme="@android:style/Theme.Translucent.NoTitleBar" >
+211-->[com.google.firebase:firebase-auth:21.0.6] /Users/horizongo/.gradle/caches/transforms-3/e33e5ba9c3729ff4007820cb355034f7/transformed/jetified-firebase-auth-21.0.6/AndroidManifest.xml:50:13-72
+212            <intent-filter>
+212-->[com.google.firebase:firebase-auth:21.0.6] /Users/horizongo/.gradle/caches/transforms-3/e33e5ba9c3729ff4007820cb355034f7/transformed/jetified-firebase-auth-21.0.6/AndroidManifest.xml:51:13-61:29
+213                <action android:name="android.intent.action.VIEW" />
+213-->[com.google.firebase:firebase-auth:21.0.6] /Users/horizongo/.gradle/caches/transforms-3/e33e5ba9c3729ff4007820cb355034f7/transformed/jetified-firebase-auth-21.0.6/AndroidManifest.xml:34:17-69
+213-->[com.google.firebase:firebase-auth:21.0.6] /Users/horizongo/.gradle/caches/transforms-3/e33e5ba9c3729ff4007820cb355034f7/transformed/jetified-firebase-auth-21.0.6/AndroidManifest.xml:34:25-66
+214
+215                <category android:name="android.intent.category.DEFAULT" />
+215-->[com.google.firebase:firebase-auth:21.0.6] /Users/horizongo/.gradle/caches/transforms-3/e33e5ba9c3729ff4007820cb355034f7/transformed/jetified-firebase-auth-21.0.6/AndroidManifest.xml:36:17-76
+215-->[com.google.firebase:firebase-auth:21.0.6] /Users/horizongo/.gradle/caches/transforms-3/e33e5ba9c3729ff4007820cb355034f7/transformed/jetified-firebase-auth-21.0.6/AndroidManifest.xml:36:27-73
+216                <category android:name="android.intent.category.BROWSABLE" />
+216-->[com.google.firebase:firebase-auth:21.0.6] /Users/horizongo/.gradle/caches/transforms-3/e33e5ba9c3729ff4007820cb355034f7/transformed/jetified-firebase-auth-21.0.6/AndroidManifest.xml:37:17-78
+216-->[com.google.firebase:firebase-auth:21.0.6] /Users/horizongo/.gradle/caches/transforms-3/e33e5ba9c3729ff4007820cb355034f7/transformed/jetified-firebase-auth-21.0.6/AndroidManifest.xml:37:27-75
+217
+218                <data
+218-->[com.google.firebase:firebase-auth:21.0.6] /Users/horizongo/.gradle/caches/transforms-3/e33e5ba9c3729ff4007820cb355034f7/transformed/jetified-firebase-auth-21.0.6/AndroidManifest.xml:39:17-42:51
+219                    android:host="firebase.auth"
+219-->[com.google.firebase:firebase-auth:21.0.6] /Users/horizongo/.gradle/caches/transforms-3/e33e5ba9c3729ff4007820cb355034f7/transformed/jetified-firebase-auth-21.0.6/AndroidManifest.xml:40:21-49
+220                    android:path="/"
+220-->[com.google.firebase:firebase-auth:21.0.6] /Users/horizongo/.gradle/caches/transforms-3/e33e5ba9c3729ff4007820cb355034f7/transformed/jetified-firebase-auth-21.0.6/AndroidManifest.xml:41:21-37
+221                    android:scheme="recaptcha" />
+221-->[com.google.firebase:firebase-auth:21.0.6] /Users/horizongo/.gradle/caches/transforms-3/e33e5ba9c3729ff4007820cb355034f7/transformed/jetified-firebase-auth-21.0.6/AndroidManifest.xml:42:21-48
+222            </intent-filter>
+223        </activity>
+224
+225        <provider
+225-->[com.google.firebase:firebase-common:20.1.1] /Users/horizongo/.gradle/caches/transforms-3/e35f9580f1cdff6dd05e5884fe70dec3/transformed/jetified-firebase-common-20.1.1/AndroidManifest.xml:26:9-31:39
+226            android:name="com.google.firebase.provider.FirebaseInitProvider"
+226-->[com.google.firebase:firebase-common:20.1.1] /Users/horizongo/.gradle/caches/transforms-3/e35f9580f1cdff6dd05e5884fe70dec3/transformed/jetified-firebase-common-20.1.1/AndroidManifest.xml:27:13-77
+227            android:authorities="com.fitness.workouts.weightloss.firebaseinitprovider"
+227-->[com.google.firebase:firebase-common:20.1.1] /Users/horizongo/.gradle/caches/transforms-3/e35f9580f1cdff6dd05e5884fe70dec3/transformed/jetified-firebase-common-20.1.1/AndroidManifest.xml:28:13-72
+228            android:directBootAware="true"
+228-->[com.google.firebase:firebase-common:20.1.1] /Users/horizongo/.gradle/caches/transforms-3/e35f9580f1cdff6dd05e5884fe70dec3/transformed/jetified-firebase-common-20.1.1/AndroidManifest.xml:29:13-43
+229            android:exported="false"
+229-->[com.google.firebase:firebase-common:20.1.1] /Users/horizongo/.gradle/caches/transforms-3/e35f9580f1cdff6dd05e5884fe70dec3/transformed/jetified-firebase-common-20.1.1/AndroidManifest.xml:30:13-37
+230            android:initOrder="100" />
+230-->[com.google.firebase:firebase-common:20.1.1] /Users/horizongo/.gradle/caches/transforms-3/e35f9580f1cdff6dd05e5884fe70dec3/transformed/jetified-firebase-common-20.1.1/AndroidManifest.xml:31:13-36
+231
+232        <activity
+232-->[com.google.android.gms:play-services-auth:20.0.1] /Users/horizongo/.gradle/caches/transforms-3/419a16ae079c9452d293d8dbc854b0c3/transformed/jetified-play-services-auth-20.0.1/AndroidManifest.xml:23:9-27:75
+233            android:name="com.google.android.gms.auth.api.signin.internal.SignInHubActivity"
+233-->[com.google.android.gms:play-services-auth:20.0.1] /Users/horizongo/.gradle/caches/transforms-3/419a16ae079c9452d293d8dbc854b0c3/transformed/jetified-play-services-auth-20.0.1/AndroidManifest.xml:24:13-93
+234            android:excludeFromRecents="true"
+234-->[com.google.android.gms:play-services-auth:20.0.1] /Users/horizongo/.gradle/caches/transforms-3/419a16ae079c9452d293d8dbc854b0c3/transformed/jetified-play-services-auth-20.0.1/AndroidManifest.xml:25:13-46
+235            android:exported="false"
+235-->[com.google.android.gms:play-services-auth:20.0.1] /Users/horizongo/.gradle/caches/transforms-3/419a16ae079c9452d293d8dbc854b0c3/transformed/jetified-play-services-auth-20.0.1/AndroidManifest.xml:26:13-37
+236            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+236-->[com.google.android.gms:play-services-auth:20.0.1] /Users/horizongo/.gradle/caches/transforms-3/419a16ae079c9452d293d8dbc854b0c3/transformed/jetified-play-services-auth-20.0.1/AndroidManifest.xml:27:13-72
+237        <!--
+238            Service handling Google Sign-In user revocation. For apps that do not integrate with
+239            Google Sign-In, this service will never be started.
+240        -->
+241        <service
+241-->[com.google.android.gms:play-services-auth:20.0.1] /Users/horizongo/.gradle/caches/transforms-3/419a16ae079c9452d293d8dbc854b0c3/transformed/jetified-play-services-auth-20.0.1/AndroidManifest.xml:33:9-37:51
+242            android:name="com.google.android.gms.auth.api.signin.RevocationBoundService"
+242-->[com.google.android.gms:play-services-auth:20.0.1] /Users/horizongo/.gradle/caches/transforms-3/419a16ae079c9452d293d8dbc854b0c3/transformed/jetified-play-services-auth-20.0.1/AndroidManifest.xml:34:13-89
+243            android:exported="true"
+243-->[com.google.android.gms:play-services-auth:20.0.1] /Users/horizongo/.gradle/caches/transforms-3/419a16ae079c9452d293d8dbc854b0c3/transformed/jetified-play-services-auth-20.0.1/AndroidManifest.xml:35:13-36
+244            android:permission="com.google.android.gms.auth.api.signin.permission.REVOCATION_NOTIFICATION"
+244-->[com.google.android.gms:play-services-auth:20.0.1] /Users/horizongo/.gradle/caches/transforms-3/419a16ae079c9452d293d8dbc854b0c3/transformed/jetified-play-services-auth-20.0.1/AndroidManifest.xml:36:13-107
+245            android:visibleToInstantApps="true" />
+245-->[com.google.android.gms:play-services-auth:20.0.1] /Users/horizongo/.gradle/caches/transforms-3/419a16ae079c9452d293d8dbc854b0c3/transformed/jetified-play-services-auth-20.0.1/AndroidManifest.xml:37:13-48
+246
+247        <activity
+247-->[com.google.android.gms:play-services-base:18.0.1] /Users/horizongo/.gradle/caches/transforms-3/50e072bdb7a8e91c93a555c442dd3a6b/transformed/jetified-play-services-base-18.0.1/AndroidManifest.xml:20:9-22:45
+248            android:name="com.google.android.gms.common.api.GoogleApiActivity"
+248-->[com.google.android.gms:play-services-base:18.0.1] /Users/horizongo/.gradle/caches/transforms-3/50e072bdb7a8e91c93a555c442dd3a6b/transformed/jetified-play-services-base-18.0.1/AndroidManifest.xml:20:19-85
+249            android:exported="false"
+249-->[com.google.android.gms:play-services-base:18.0.1] /Users/horizongo/.gradle/caches/transforms-3/50e072bdb7a8e91c93a555c442dd3a6b/transformed/jetified-play-services-base-18.0.1/AndroidManifest.xml:22:19-43
+250            android:theme="@android:style/Theme.Translucent.NoTitleBar" /> <!-- Include the AdActivity and InAppPurchaseActivity configChanges and themes. -->
+250-->[com.google.android.gms:play-services-base:18.0.1] /Users/horizongo/.gradle/caches/transforms-3/50e072bdb7a8e91c93a555c442dd3a6b/transformed/jetified-play-services-base-18.0.1/AndroidManifest.xml:21:19-78
+251        <activity
+251-->[com.google.android.gms:play-services-ads-lite:20.6.0] /Users/horizongo/.gradle/caches/transforms-3/c4640db8c14ebdfa7705e73b95695f1b/transformed/jetified-play-services-ads-lite-20.6.0/AndroidManifest.xml:49:9-53:64
+252            android:name="com.google.android.gms.ads.AdActivity"
+252-->[com.google.android.gms:play-services-ads-lite:20.6.0] /Users/horizongo/.gradle/caches/transforms-3/c4640db8c14ebdfa7705e73b95695f1b/transformed/jetified-play-services-ads-lite-20.6.0/AndroidManifest.xml:50:13-65
+253            android:configChanges="keyboard|keyboardHidden|orientation|screenLayout|uiMode|screenSize|smallestScreenSize"
+253-->[com.google.android.gms:play-services-ads-lite:20.6.0] /Users/horizongo/.gradle/caches/transforms-3/c4640db8c14ebdfa7705e73b95695f1b/transformed/jetified-play-services-ads-lite-20.6.0/AndroidManifest.xml:51:13-122
+254            android:exported="false"
+254-->[com.google.android.gms:play-services-ads-lite:20.6.0] /Users/horizongo/.gradle/caches/transforms-3/c4640db8c14ebdfa7705e73b95695f1b/transformed/jetified-play-services-ads-lite-20.6.0/AndroidManifest.xml:52:13-37
+255            android:theme="@android:style/Theme.Translucent" />
+255-->[com.google.android.gms:play-services-ads-lite:20.6.0] /Users/horizongo/.gradle/caches/transforms-3/c4640db8c14ebdfa7705e73b95695f1b/transformed/jetified-play-services-ads-lite-20.6.0/AndroidManifest.xml:53:13-61
+256
+257        <provider
+257-->[com.google.android.gms:play-services-ads-lite:20.6.0] /Users/horizongo/.gradle/caches/transforms-3/c4640db8c14ebdfa7705e73b95695f1b/transformed/jetified-play-services-ads-lite-20.6.0/AndroidManifest.xml:55:9-59:39
+258            android:name="com.google.android.gms.ads.MobileAdsInitProvider"
+258-->[com.google.android.gms:play-services-ads-lite:20.6.0] /Users/horizongo/.gradle/caches/transforms-3/c4640db8c14ebdfa7705e73b95695f1b/transformed/jetified-play-services-ads-lite-20.6.0/AndroidManifest.xml:56:13-76
+259            android:authorities="com.fitness.workouts.weightloss.mobileadsinitprovider"
+259-->[com.google.android.gms:play-services-ads-lite:20.6.0] /Users/horizongo/.gradle/caches/transforms-3/c4640db8c14ebdfa7705e73b95695f1b/transformed/jetified-play-services-ads-lite-20.6.0/AndroidManifest.xml:57:13-73
+260            android:exported="false"
+260-->[com.google.android.gms:play-services-ads-lite:20.6.0] /Users/horizongo/.gradle/caches/transforms-3/c4640db8c14ebdfa7705e73b95695f1b/transformed/jetified-play-services-ads-lite-20.6.0/AndroidManifest.xml:58:13-37
+261            android:initOrder="100" />
+261-->[com.google.android.gms:play-services-ads-lite:20.6.0] /Users/horizongo/.gradle/caches/transforms-3/c4640db8c14ebdfa7705e73b95695f1b/transformed/jetified-play-services-ads-lite-20.6.0/AndroidManifest.xml:59:13-36
+262
+263        <service
+263-->[com.google.android.gms:play-services-ads-lite:20.6.0] /Users/horizongo/.gradle/caches/transforms-3/c4640db8c14ebdfa7705e73b95695f1b/transformed/jetified-play-services-ads-lite-20.6.0/AndroidManifest.xml:61:9-64:40
+264            android:name="com.google.android.gms.ads.AdService"
+264-->[com.google.android.gms:play-services-ads-lite:20.6.0] /Users/horizongo/.gradle/caches/transforms-3/c4640db8c14ebdfa7705e73b95695f1b/transformed/jetified-play-services-ads-lite-20.6.0/AndroidManifest.xml:62:13-64
+265            android:enabled="true"
+265-->[com.google.android.gms:play-services-ads-lite:20.6.0] /Users/horizongo/.gradle/caches/transforms-3/c4640db8c14ebdfa7705e73b95695f1b/transformed/jetified-play-services-ads-lite-20.6.0/AndroidManifest.xml:63:13-35
+266            android:exported="false" />
+266-->[com.google.android.gms:play-services-ads-lite:20.6.0] /Users/horizongo/.gradle/caches/transforms-3/c4640db8c14ebdfa7705e73b95695f1b/transformed/jetified-play-services-ads-lite-20.6.0/AndroidManifest.xml:64:13-37
+267
+268        <meta-data
+268-->[com.google.android.gms:play-services-basement:18.0.0] /Users/horizongo/.gradle/caches/transforms-3/f83c351fdd5ae63f0e877a4feece5ffb/transformed/jetified-play-services-basement-18.0.0/AndroidManifest.xml:21:9-23:69
+269            android:name="com.google.android.gms.version"
+269-->[com.google.android.gms:play-services-basement:18.0.0] /Users/horizongo/.gradle/caches/transforms-3/f83c351fdd5ae63f0e877a4feece5ffb/transformed/jetified-play-services-basement-18.0.0/AndroidManifest.xml:22:13-58
+270            android:value="@integer/google_play_services_version" />
+270-->[com.google.android.gms:play-services-basement:18.0.0] /Users/horizongo/.gradle/caches/transforms-3/f83c351fdd5ae63f0e877a4feece5ffb/transformed/jetified-play-services-basement-18.0.0/AndroidManifest.xml:23:13-66
+271
+272        <provider
+272-->[androidx.emoji2:emoji2:1.0.0] /Users/horizongo/.gradle/caches/transforms-3/4669372fbdc14f437b2a74c555cb81cc/transformed/jetified-emoji2-1.0.0/AndroidManifest.xml:26:9-34:20
+273            android:name="androidx.startup.InitializationProvider"
+273-->[androidx.emoji2:emoji2:1.0.0] /Users/horizongo/.gradle/caches/transforms-3/4669372fbdc14f437b2a74c555cb81cc/transformed/jetified-emoji2-1.0.0/AndroidManifest.xml:27:13-67
+274            android:authorities="com.fitness.workouts.weightloss.androidx-startup"
+274-->[androidx.emoji2:emoji2:1.0.0] /Users/horizongo/.gradle/caches/transforms-3/4669372fbdc14f437b2a74c555cb81cc/transformed/jetified-emoji2-1.0.0/AndroidManifest.xml:28:13-68
+275            android:exported="false" >
+275-->[androidx.emoji2:emoji2:1.0.0] /Users/horizongo/.gradle/caches/transforms-3/4669372fbdc14f437b2a74c555cb81cc/transformed/jetified-emoji2-1.0.0/AndroidManifest.xml:29:13-37
+276            <meta-data
+276-->[androidx.emoji2:emoji2:1.0.0] /Users/horizongo/.gradle/caches/transforms-3/4669372fbdc14f437b2a74c555cb81cc/transformed/jetified-emoji2-1.0.0/AndroidManifest.xml:31:13-33:52
+277                android:name="androidx.emoji2.text.EmojiCompatInitializer"
+277-->[androidx.emoji2:emoji2:1.0.0] /Users/horizongo/.gradle/caches/transforms-3/4669372fbdc14f437b2a74c555cb81cc/transformed/jetified-emoji2-1.0.0/AndroidManifest.xml:32:17-75
+278                android:value="androidx.startup" />
+278-->[androidx.emoji2:emoji2:1.0.0] /Users/horizongo/.gradle/caches/transforms-3/4669372fbdc14f437b2a74c555cb81cc/transformed/jetified-emoji2-1.0.0/AndroidManifest.xml:33:17-49
+279            <meta-data
+279-->[androidx.lifecycle:lifecycle-process:2.4.0] /Users/horizongo/.gradle/caches/transforms-3/05613428900937d7517d8a497dd026f4/transformed/jetified-lifecycle-process-2.4.0/AndroidManifest.xml:31:13-33:52
+280                android:name="androidx.lifecycle.ProcessLifecycleInitializer"
+280-->[androidx.lifecycle:lifecycle-process:2.4.0] /Users/horizongo/.gradle/caches/transforms-3/05613428900937d7517d8a497dd026f4/transformed/jetified-lifecycle-process-2.4.0/AndroidManifest.xml:32:17-78
+281                android:value="androidx.startup" />
+281-->[androidx.lifecycle:lifecycle-process:2.4.0] /Users/horizongo/.gradle/caches/transforms-3/05613428900937d7517d8a497dd026f4/transformed/jetified-lifecycle-process-2.4.0/AndroidManifest.xml:33:17-49
+282            <meta-data
+282-->[androidx.work:work-runtime:2.7.0] /Users/horizongo/.gradle/caches/transforms-3/4a43d203ea2e248d52600e8e70c6014c/transformed/work-runtime-2.7.0/AndroidManifest.xml:36:13-38:52
+283                android:name="androidx.work.WorkManagerInitializer"
+283-->[androidx.work:work-runtime:2.7.0] /Users/horizongo/.gradle/caches/transforms-3/4a43d203ea2e248d52600e8e70c6014c/transformed/work-runtime-2.7.0/AndroidManifest.xml:37:17-68
+284                android:value="androidx.startup" />
+284-->[androidx.work:work-runtime:2.7.0] /Users/horizongo/.gradle/caches/transforms-3/4a43d203ea2e248d52600e8e70c6014c/transformed/work-runtime-2.7.0/AndroidManifest.xml:38:17-49
+285        </provider>
+286
+287        <service
+287-->[androidx.work:work-runtime:2.7.0] /Users/horizongo/.gradle/caches/transforms-3/4a43d203ea2e248d52600e8e70c6014c/transformed/work-runtime-2.7.0/AndroidManifest.xml:41:9-46:35
+288            android:name="androidx.work.impl.background.systemalarm.SystemAlarmService"
+288-->[androidx.work:work-runtime:2.7.0] /Users/horizongo/.gradle/caches/transforms-3/4a43d203ea2e248d52600e8e70c6014c/transformed/work-runtime-2.7.0/AndroidManifest.xml:42:13-88
+289            android:directBootAware="false"
+289-->[androidx.work:work-runtime:2.7.0] /Users/horizongo/.gradle/caches/transforms-3/4a43d203ea2e248d52600e8e70c6014c/transformed/work-runtime-2.7.0/AndroidManifest.xml:43:13-44
+290            android:enabled="@bool/enable_system_alarm_service_default"
+290-->[androidx.work:work-runtime:2.7.0] /Users/horizongo/.gradle/caches/transforms-3/4a43d203ea2e248d52600e8e70c6014c/transformed/work-runtime-2.7.0/AndroidManifest.xml:44:13-72
+291            android:exported="false" />
+291-->[androidx.work:work-runtime:2.7.0] /Users/horizongo/.gradle/caches/transforms-3/4a43d203ea2e248d52600e8e70c6014c/transformed/work-runtime-2.7.0/AndroidManifest.xml:45:13-37
+292        <service
+292-->[androidx.work:work-runtime:2.7.0] /Users/horizongo/.gradle/caches/transforms-3/4a43d203ea2e248d52600e8e70c6014c/transformed/work-runtime-2.7.0/AndroidManifest.xml:47:9-53:35
+293            android:name="androidx.work.impl.background.systemjob.SystemJobService"
+293-->[androidx.work:work-runtime:2.7.0] /Users/horizongo/.gradle/caches/transforms-3/4a43d203ea2e248d52600e8e70c6014c/transformed/work-runtime-2.7.0/AndroidManifest.xml:48:13-84
+294            android:directBootAware="false"
+294-->[androidx.work:work-runtime:2.7.0] /Users/horizongo/.gradle/caches/transforms-3/4a43d203ea2e248d52600e8e70c6014c/transformed/work-runtime-2.7.0/AndroidManifest.xml:49:13-44
+295            android:enabled="@bool/enable_system_job_service_default"
+295-->[androidx.work:work-runtime:2.7.0] /Users/horizongo/.gradle/caches/transforms-3/4a43d203ea2e248d52600e8e70c6014c/transformed/work-runtime-2.7.0/AndroidManifest.xml:50:13-70
+296            android:exported="true"
+296-->[androidx.work:work-runtime:2.7.0] /Users/horizongo/.gradle/caches/transforms-3/4a43d203ea2e248d52600e8e70c6014c/transformed/work-runtime-2.7.0/AndroidManifest.xml:51:13-36
+297            android:permission="android.permission.BIND_JOB_SERVICE" />
+297-->[androidx.work:work-runtime:2.7.0] /Users/horizongo/.gradle/caches/transforms-3/4a43d203ea2e248d52600e8e70c6014c/transformed/work-runtime-2.7.0/AndroidManifest.xml:52:13-69
+298        <service
+298-->[androidx.work:work-runtime:2.7.0] /Users/horizongo/.gradle/caches/transforms-3/4a43d203ea2e248d52600e8e70c6014c/transformed/work-runtime-2.7.0/AndroidManifest.xml:54:9-59:35
+299            android:name="androidx.work.impl.foreground.SystemForegroundService"
+299-->[androidx.work:work-runtime:2.7.0] /Users/horizongo/.gradle/caches/transforms-3/4a43d203ea2e248d52600e8e70c6014c/transformed/work-runtime-2.7.0/AndroidManifest.xml:55:13-81
+300            android:directBootAware="false"
+300-->[androidx.work:work-runtime:2.7.0] /Users/horizongo/.gradle/caches/transforms-3/4a43d203ea2e248d52600e8e70c6014c/transformed/work-runtime-2.7.0/AndroidManifest.xml:56:13-44
+301            android:enabled="@bool/enable_system_foreground_service_default"
+301-->[androidx.work:work-runtime:2.7.0] /Users/horizongo/.gradle/caches/transforms-3/4a43d203ea2e248d52600e8e70c6014c/transformed/work-runtime-2.7.0/AndroidManifest.xml:57:13-77
+302            android:exported="false" />
+302-->[androidx.work:work-runtime:2.7.0] /Users/horizongo/.gradle/caches/transforms-3/4a43d203ea2e248d52600e8e70c6014c/transformed/work-runtime-2.7.0/AndroidManifest.xml:58:13-37
+303
+304        <receiver
+304-->[androidx.work:work-runtime:2.7.0] /Users/horizongo/.gradle/caches/transforms-3/4a43d203ea2e248d52600e8e70c6014c/transformed/work-runtime-2.7.0/AndroidManifest.xml:61:9-66:35
+305            android:name="androidx.work.impl.utils.ForceStopRunnable$BroadcastReceiver"
+305-->[androidx.work:work-runtime:2.7.0] /Users/horizongo/.gradle/caches/transforms-3/4a43d203ea2e248d52600e8e70c6014c/transformed/work-runtime-2.7.0/AndroidManifest.xml:62:13-88
+306            android:directBootAware="false"
+306-->[androidx.work:work-runtime:2.7.0] /Users/horizongo/.gradle/caches/transforms-3/4a43d203ea2e248d52600e8e70c6014c/transformed/work-runtime-2.7.0/AndroidManifest.xml:63:13-44
+307            android:enabled="true"
+307-->[androidx.work:work-runtime:2.7.0] /Users/horizongo/.gradle/caches/transforms-3/4a43d203ea2e248d52600e8e70c6014c/transformed/work-runtime-2.7.0/AndroidManifest.xml:64:13-35
+308            android:exported="false" />
+308-->[androidx.work:work-runtime:2.7.0] /Users/horizongo/.gradle/caches/transforms-3/4a43d203ea2e248d52600e8e70c6014c/transformed/work-runtime-2.7.0/AndroidManifest.xml:65:13-37
+309        <receiver
+309-->[androidx.work:work-runtime:2.7.0] /Users/horizongo/.gradle/caches/transforms-3/4a43d203ea2e248d52600e8e70c6014c/transformed/work-runtime-2.7.0/AndroidManifest.xml:67:9-77:20
+310            android:name="androidx.work.impl.background.systemalarm.ConstraintProxy$BatteryChargingProxy"
+310-->[androidx.work:work-runtime:2.7.0] /Users/horizongo/.gradle/caches/transforms-3/4a43d203ea2e248d52600e8e70c6014c/transformed/work-runtime-2.7.0/AndroidManifest.xml:68:13-106
+311            android:directBootAware="false"
+311-->[androidx.work:work-runtime:2.7.0] /Users/horizongo/.gradle/caches/transforms-3/4a43d203ea2e248d52600e8e70c6014c/transformed/work-runtime-2.7.0/AndroidManifest.xml:69:13-44
+312            android:enabled="false"
+312-->[androidx.work:work-runtime:2.7.0] /Users/horizongo/.gradle/caches/transforms-3/4a43d203ea2e248d52600e8e70c6014c/transformed/work-runtime-2.7.0/AndroidManifest.xml:70:13-36
+313            android:exported="false" >
+313-->[androidx.work:work-runtime:2.7.0] /Users/horizongo/.gradle/caches/transforms-3/4a43d203ea2e248d52600e8e70c6014c/transformed/work-runtime-2.7.0/AndroidManifest.xml:71:13-37
+314            <intent-filter>
+314-->[androidx.work:work-runtime:2.7.0] /Users/horizongo/.gradle/caches/transforms-3/4a43d203ea2e248d52600e8e70c6014c/transformed/work-runtime-2.7.0/AndroidManifest.xml:73:13-76:29
+315                <action android:name="android.intent.action.ACTION_POWER_CONNECTED" />
+315-->[androidx.work:work-runtime:2.7.0] /Users/horizongo/.gradle/caches/transforms-3/4a43d203ea2e248d52600e8e70c6014c/transformed/work-runtime-2.7.0/AndroidManifest.xml:74:17-87
+315-->[androidx.work:work-runtime:2.7.0] /Users/horizongo/.gradle/caches/transforms-3/4a43d203ea2e248d52600e8e70c6014c/transformed/work-runtime-2.7.0/AndroidManifest.xml:74:25-84
+316                <action android:name="android.intent.action.ACTION_POWER_DISCONNECTED" />
+316-->[androidx.work:work-runtime:2.7.0] /Users/horizongo/.gradle/caches/transforms-3/4a43d203ea2e248d52600e8e70c6014c/transformed/work-runtime-2.7.0/AndroidManifest.xml:75:17-90
+316-->[androidx.work:work-runtime:2.7.0] /Users/horizongo/.gradle/caches/transforms-3/4a43d203ea2e248d52600e8e70c6014c/transformed/work-runtime-2.7.0/AndroidManifest.xml:75:25-87
+317            </intent-filter>
+318        </receiver>
+319        <receiver
+319-->[androidx.work:work-runtime:2.7.0] /Users/horizongo/.gradle/caches/transforms-3/4a43d203ea2e248d52600e8e70c6014c/transformed/work-runtime-2.7.0/AndroidManifest.xml:78:9-88:20
+320            android:name="androidx.work.impl.background.systemalarm.ConstraintProxy$BatteryNotLowProxy"
+320-->[androidx.work:work-runtime:2.7.0] /Users/horizongo/.gradle/caches/transforms-3/4a43d203ea2e248d52600e8e70c6014c/transformed/work-runtime-2.7.0/AndroidManifest.xml:79:13-104
+321            android:directBootAware="false"
+321-->[androidx.work:work-runtime:2.7.0] /Users/horizongo/.gradle/caches/transforms-3/4a43d203ea2e248d52600e8e70c6014c/transformed/work-runtime-2.7.0/AndroidManifest.xml:80:13-44
+322            android:enabled="false"
+322-->[androidx.work:work-runtime:2.7.0] /Users/horizongo/.gradle/caches/transforms-3/4a43d203ea2e248d52600e8e70c6014c/transformed/work-runtime-2.7.0/AndroidManifest.xml:81:13-36
+323            android:exported="false" >
+323-->[androidx.work:work-runtime:2.7.0] /Users/horizongo/.gradle/caches/transforms-3/4a43d203ea2e248d52600e8e70c6014c/transformed/work-runtime-2.7.0/AndroidManifest.xml:82:13-37
+324            <intent-filter>
+324-->[androidx.work:work-runtime:2.7.0] /Users/horizongo/.gradle/caches/transforms-3/4a43d203ea2e248d52600e8e70c6014c/transformed/work-runtime-2.7.0/AndroidManifest.xml:84:13-87:29
+325                <action android:name="android.intent.action.BATTERY_OKAY" />
+325-->[androidx.work:work-runtime:2.7.0] /Users/horizongo/.gradle/caches/transforms-3/4a43d203ea2e248d52600e8e70c6014c/transformed/work-runtime-2.7.0/AndroidManifest.xml:85:17-77
+325-->[androidx.work:work-runtime:2.7.0] /Users/horizongo/.gradle/caches/transforms-3/4a43d203ea2e248d52600e8e70c6014c/transformed/work-runtime-2.7.0/AndroidManifest.xml:85:25-74
+326                <action android:name="android.intent.action.BATTERY_LOW" />
+326-->[androidx.work:work-runtime:2.7.0] /Users/horizongo/.gradle/caches/transforms-3/4a43d203ea2e248d52600e8e70c6014c/transformed/work-runtime-2.7.0/AndroidManifest.xml:86:17-76
+326-->[androidx.work:work-runtime:2.7.0] /Users/horizongo/.gradle/caches/transforms-3/4a43d203ea2e248d52600e8e70c6014c/transformed/work-runtime-2.7.0/AndroidManifest.xml:86:25-73
+327            </intent-filter>
+328        </receiver>
+329        <receiver
+329-->[androidx.work:work-runtime:2.7.0] /Users/horizongo/.gradle/caches/transforms-3/4a43d203ea2e248d52600e8e70c6014c/transformed/work-runtime-2.7.0/AndroidManifest.xml:89:9-99:20
+330            android:name="androidx.work.impl.background.systemalarm.ConstraintProxy$StorageNotLowProxy"
+330-->[androidx.work:work-runtime:2.7.0] /Users/horizongo/.gradle/caches/transforms-3/4a43d203ea2e248d52600e8e70c6014c/transformed/work-runtime-2.7.0/AndroidManifest.xml:90:13-104
+331            android:directBootAware="false"
+331-->[androidx.work:work-runtime:2.7.0] /Users/horizongo/.gradle/caches/transforms-3/4a43d203ea2e248d52600e8e70c6014c/transformed/work-runtime-2.7.0/AndroidManifest.xml:91:13-44
+332            android:enabled="false"
+332-->[androidx.work:work-runtime:2.7.0] /Users/horizongo/.gradle/caches/transforms-3/4a43d203ea2e248d52600e8e70c6014c/transformed/work-runtime-2.7.0/AndroidManifest.xml:92:13-36
+333            android:exported="false" >
+333-->[androidx.work:work-runtime:2.7.0] /Users/horizongo/.gradle/caches/transforms-3/4a43d203ea2e248d52600e8e70c6014c/transformed/work-runtime-2.7.0/AndroidManifest.xml:93:13-37
+334            <intent-filter>
+334-->[androidx.work:work-runtime:2.7.0] /Users/horizongo/.gradle/caches/transforms-3/4a43d203ea2e248d52600e8e70c6014c/transformed/work-runtime-2.7.0/AndroidManifest.xml:95:13-98:29
+335                <action android:name="android.intent.action.DEVICE_STORAGE_LOW" />
+335-->[androidx.work:work-runtime:2.7.0] /Users/horizongo/.gradle/caches/transforms-3/4a43d203ea2e248d52600e8e70c6014c/transformed/work-runtime-2.7.0/AndroidManifest.xml:96:17-83
+335-->[androidx.work:work-runtime:2.7.0] /Users/horizongo/.gradle/caches/transforms-3/4a43d203ea2e248d52600e8e70c6014c/transformed/work-runtime-2.7.0/AndroidManifest.xml:96:25-80
+336                <action android:name="android.intent.action.DEVICE_STORAGE_OK" />
+336-->[androidx.work:work-runtime:2.7.0] /Users/horizongo/.gradle/caches/transforms-3/4a43d203ea2e248d52600e8e70c6014c/transformed/work-runtime-2.7.0/AndroidManifest.xml:97:17-82
+336-->[androidx.work:work-runtime:2.7.0] /Users/horizongo/.gradle/caches/transforms-3/4a43d203ea2e248d52600e8e70c6014c/transformed/work-runtime-2.7.0/AndroidManifest.xml:97:25-79
+337            </intent-filter>
+338        </receiver>
+339        <receiver
+339-->[androidx.work:work-runtime:2.7.0] /Users/horizongo/.gradle/caches/transforms-3/4a43d203ea2e248d52600e8e70c6014c/transformed/work-runtime-2.7.0/AndroidManifest.xml:100:9-109:20
+340            android:name="androidx.work.impl.background.systemalarm.ConstraintProxy$NetworkStateProxy"
+340-->[androidx.work:work-runtime:2.7.0] /Users/horizongo/.gradle/caches/transforms-3/4a43d203ea2e248d52600e8e70c6014c/transformed/work-runtime-2.7.0/AndroidManifest.xml:101:13-103
+341            android:directBootAware="false"
+341-->[androidx.work:work-runtime:2.7.0] /Users/horizongo/.gradle/caches/transforms-3/4a43d203ea2e248d52600e8e70c6014c/transformed/work-runtime-2.7.0/AndroidManifest.xml:102:13-44
+342            android:enabled="false"
+342-->[androidx.work:work-runtime:2.7.0] /Users/horizongo/.gradle/caches/transforms-3/4a43d203ea2e248d52600e8e70c6014c/transformed/work-runtime-2.7.0/AndroidManifest.xml:103:13-36
+343            android:exported="false" >
+343-->[androidx.work:work-runtime:2.7.0] /Users/horizongo/.gradle/caches/transforms-3/4a43d203ea2e248d52600e8e70c6014c/transformed/work-runtime-2.7.0/AndroidManifest.xml:104:13-37
+344            <intent-filter>
+344-->[androidx.work:work-runtime:2.7.0] /Users/horizongo/.gradle/caches/transforms-3/4a43d203ea2e248d52600e8e70c6014c/transformed/work-runtime-2.7.0/AndroidManifest.xml:106:13-108:29
+345                <action android:name="android.net.conn.CONNECTIVITY_CHANGE" />
+345-->[androidx.work:work-runtime:2.7.0] /Users/horizongo/.gradle/caches/transforms-3/4a43d203ea2e248d52600e8e70c6014c/transformed/work-runtime-2.7.0/AndroidManifest.xml:107:17-79
+345-->[androidx.work:work-runtime:2.7.0] /Users/horizongo/.gradle/caches/transforms-3/4a43d203ea2e248d52600e8e70c6014c/transformed/work-runtime-2.7.0/AndroidManifest.xml:107:25-76
+346            </intent-filter>
+347        </receiver>
+348        <receiver
+348-->[androidx.work:work-runtime:2.7.0] /Users/horizongo/.gradle/caches/transforms-3/4a43d203ea2e248d52600e8e70c6014c/transformed/work-runtime-2.7.0/AndroidManifest.xml:110:9-121:20
+349            android:name="androidx.work.impl.background.systemalarm.RescheduleReceiver"
+349-->[androidx.work:work-runtime:2.7.0] /Users/horizongo/.gradle/caches/transforms-3/4a43d203ea2e248d52600e8e70c6014c/transformed/work-runtime-2.7.0/AndroidManifest.xml:111:13-88
+350            android:directBootAware="false"
+350-->[androidx.work:work-runtime:2.7.0] /Users/horizongo/.gradle/caches/transforms-3/4a43d203ea2e248d52600e8e70c6014c/transformed/work-runtime-2.7.0/AndroidManifest.xml:112:13-44
+351            android:enabled="false"
+351-->[androidx.work:work-runtime:2.7.0] /Users/horizongo/.gradle/caches/transforms-3/4a43d203ea2e248d52600e8e70c6014c/transformed/work-runtime-2.7.0/AndroidManifest.xml:113:13-36
+352            android:exported="false" >
+352-->[androidx.work:work-runtime:2.7.0] /Users/horizongo/.gradle/caches/transforms-3/4a43d203ea2e248d52600e8e70c6014c/transformed/work-runtime-2.7.0/AndroidManifest.xml:114:13-37
+353            <intent-filter>
+353-->[androidx.work:work-runtime:2.7.0] /Users/horizongo/.gradle/caches/transforms-3/4a43d203ea2e248d52600e8e70c6014c/transformed/work-runtime-2.7.0/AndroidManifest.xml:116:13-120:29
+354                <action android:name="android.intent.action.BOOT_COMPLETED" />
+354-->[:flutter_local_notifications] /Users/horizongo/Downloads/fitnessappcodewithoutinapp/build/flutter_local_notifications/intermediates/merged_manifest/release/AndroidManifest.xml:22:17-79
+354-->[:flutter_local_notifications] /Users/horizongo/Downloads/fitnessappcodewithoutinapp/build/flutter_local_notifications/intermediates/merged_manifest/release/AndroidManifest.xml:22:25-76
+355                <action android:name="android.intent.action.TIME_SET" />
+355-->[androidx.work:work-runtime:2.7.0] /Users/horizongo/.gradle/caches/transforms-3/4a43d203ea2e248d52600e8e70c6014c/transformed/work-runtime-2.7.0/AndroidManifest.xml:118:17-73
+355-->[androidx.work:work-runtime:2.7.0] /Users/horizongo/.gradle/caches/transforms-3/4a43d203ea2e248d52600e8e70c6014c/transformed/work-runtime-2.7.0/AndroidManifest.xml:118:25-70
+356                <action android:name="android.intent.action.TIMEZONE_CHANGED" />
+356-->[androidx.work:work-runtime:2.7.0] /Users/horizongo/.gradle/caches/transforms-3/4a43d203ea2e248d52600e8e70c6014c/transformed/work-runtime-2.7.0/AndroidManifest.xml:119:17-81
+356-->[androidx.work:work-runtime:2.7.0] /Users/horizongo/.gradle/caches/transforms-3/4a43d203ea2e248d52600e8e70c6014c/transformed/work-runtime-2.7.0/AndroidManifest.xml:119:25-78
+357            </intent-filter>
+358        </receiver>
+359        <receiver
+359-->[androidx.work:work-runtime:2.7.0] /Users/horizongo/.gradle/caches/transforms-3/4a43d203ea2e248d52600e8e70c6014c/transformed/work-runtime-2.7.0/AndroidManifest.xml:122:9-131:20
+360            android:name="androidx.work.impl.background.systemalarm.ConstraintProxyUpdateReceiver"
+360-->[androidx.work:work-runtime:2.7.0] /Users/horizongo/.gradle/caches/transforms-3/4a43d203ea2e248d52600e8e70c6014c/transformed/work-runtime-2.7.0/AndroidManifest.xml:123:13-99
+361            android:directBootAware="false"
+361-->[androidx.work:work-runtime:2.7.0] /Users/horizongo/.gradle/caches/transforms-3/4a43d203ea2e248d52600e8e70c6014c/transformed/work-runtime-2.7.0/AndroidManifest.xml:124:13-44
+362            android:enabled="@bool/enable_system_alarm_service_default"
+362-->[androidx.work:work-runtime:2.7.0] /Users/horizongo/.gradle/caches/transforms-3/4a43d203ea2e248d52600e8e70c6014c/transformed/work-runtime-2.7.0/AndroidManifest.xml:125:13-72
+363            android:exported="false" >
+363-->[androidx.work:work-runtime:2.7.0] /Users/horizongo/.gradle/caches/transforms-3/4a43d203ea2e248d52600e8e70c6014c/transformed/work-runtime-2.7.0/AndroidManifest.xml:126:13-37
+364            <intent-filter>
+364-->[androidx.work:work-runtime:2.7.0] /Users/horizongo/.gradle/caches/transforms-3/4a43d203ea2e248d52600e8e70c6014c/transformed/work-runtime-2.7.0/AndroidManifest.xml:128:13-130:29
+365                <action android:name="androidx.work.impl.background.systemalarm.UpdateProxies" />
+365-->[androidx.work:work-runtime:2.7.0] /Users/horizongo/.gradle/caches/transforms-3/4a43d203ea2e248d52600e8e70c6014c/transformed/work-runtime-2.7.0/AndroidManifest.xml:129:17-98
+365-->[androidx.work:work-runtime:2.7.0] /Users/horizongo/.gradle/caches/transforms-3/4a43d203ea2e248d52600e8e70c6014c/transformed/work-runtime-2.7.0/AndroidManifest.xml:129:25-95
+366            </intent-filter>
+367        </receiver>
+368        <receiver
+368-->[androidx.work:work-runtime:2.7.0] /Users/horizongo/.gradle/caches/transforms-3/4a43d203ea2e248d52600e8e70c6014c/transformed/work-runtime-2.7.0/AndroidManifest.xml:132:9-142:20
+369            android:name="androidx.work.impl.diagnostics.DiagnosticsReceiver"
+369-->[androidx.work:work-runtime:2.7.0] /Users/horizongo/.gradle/caches/transforms-3/4a43d203ea2e248d52600e8e70c6014c/transformed/work-runtime-2.7.0/AndroidManifest.xml:133:13-78
+370            android:directBootAware="false"
+370-->[androidx.work:work-runtime:2.7.0] /Users/horizongo/.gradle/caches/transforms-3/4a43d203ea2e248d52600e8e70c6014c/transformed/work-runtime-2.7.0/AndroidManifest.xml:134:13-44
+371            android:enabled="true"
+371-->[androidx.work:work-runtime:2.7.0] /Users/horizongo/.gradle/caches/transforms-3/4a43d203ea2e248d52600e8e70c6014c/transformed/work-runtime-2.7.0/AndroidManifest.xml:135:13-35
+372            android:exported="true"
+372-->[androidx.work:work-runtime:2.7.0] /Users/horizongo/.gradle/caches/transforms-3/4a43d203ea2e248d52600e8e70c6014c/transformed/work-runtime-2.7.0/AndroidManifest.xml:136:13-36
+373            android:permission="android.permission.DUMP" >
+373-->[androidx.work:work-runtime:2.7.0] /Users/horizongo/.gradle/caches/transforms-3/4a43d203ea2e248d52600e8e70c6014c/transformed/work-runtime-2.7.0/AndroidManifest.xml:137:13-57
+374            <intent-filter>
+374-->[androidx.work:work-runtime:2.7.0] /Users/horizongo/.gradle/caches/transforms-3/4a43d203ea2e248d52600e8e70c6014c/transformed/work-runtime-2.7.0/AndroidManifest.xml:139:13-141:29
+375                <action android:name="androidx.work.diagnostics.REQUEST_DIAGNOSTICS" />
+375-->[androidx.work:work-runtime:2.7.0] /Users/horizongo/.gradle/caches/transforms-3/4a43d203ea2e248d52600e8e70c6014c/transformed/work-runtime-2.7.0/AndroidManifest.xml:140:17-88
+375-->[androidx.work:work-runtime:2.7.0] /Users/horizongo/.gradle/caches/transforms-3/4a43d203ea2e248d52600e8e70c6014c/transformed/work-runtime-2.7.0/AndroidManifest.xml:140:25-85
+376            </intent-filter>
+377        </receiver>
+378
+379        <service
+379-->[androidx.room:room-runtime:2.2.5] /Users/horizongo/.gradle/caches/transforms-3/8e38f591fb54ee1ccef20211c4bf5fc6/transformed/room-runtime-2.2.5/AndroidManifest.xml:25:9-28:40
+380            android:name="androidx.room.MultiInstanceInvalidationService"
+380-->[androidx.room:room-runtime:2.2.5] /Users/horizongo/.gradle/caches/transforms-3/8e38f591fb54ee1ccef20211c4bf5fc6/transformed/room-runtime-2.2.5/AndroidManifest.xml:26:13-74
+381            android:directBootAware="true"
+381-->[androidx.room:room-runtime:2.2.5] /Users/horizongo/.gradle/caches/transforms-3/8e38f591fb54ee1ccef20211c4bf5fc6/transformed/room-runtime-2.2.5/AndroidManifest.xml:27:13-43
+382            android:exported="false" /> <!-- The activities will be merged into the manifest of the hosting app. -->
+382-->[androidx.room:room-runtime:2.2.5] /Users/horizongo/.gradle/caches/transforms-3/8e38f591fb54ee1ccef20211c4bf5fc6/transformed/room-runtime-2.2.5/AndroidManifest.xml:28:13-37
+383        <activity
+383-->[com.google.android.play:core:1.8.0] /Users/horizongo/.gradle/caches/transforms-3/d134ea72cfa354325f17e5474f411787/transformed/jetified-core-1.8.0/AndroidManifest.xml:12:5-271
+384            android:name="com.google.android.play.core.missingsplits.PlayCoreMissingSplitsActivity"
+384-->[com.google.android.play:core:1.8.0] /Users/horizongo/.gradle/caches/transforms-3/d134ea72cfa354325f17e5474f411787/transformed/jetified-core-1.8.0/AndroidManifest.xml:12:15-102
+385            android:enabled="false"
+385-->[com.google.android.play:core:1.8.0] /Users/horizongo/.gradle/caches/transforms-3/d134ea72cfa354325f17e5474f411787/transformed/jetified-core-1.8.0/AndroidManifest.xml:12:103-126
+386            android:exported="false"
+386-->[com.google.android.play:core:1.8.0] /Users/horizongo/.gradle/caches/transforms-3/d134ea72cfa354325f17e5474f411787/transformed/jetified-core-1.8.0/AndroidManifest.xml:12:127-151
+387            android:launchMode="singleInstance"
+387-->[com.google.android.play:core:1.8.0] /Users/horizongo/.gradle/caches/transforms-3/d134ea72cfa354325f17e5474f411787/transformed/jetified-core-1.8.0/AndroidManifest.xml:12:204-239
+388            android:process=":playcore_missing_splits_activity"
+388-->[com.google.android.play:core:1.8.0] /Users/horizongo/.gradle/caches/transforms-3/d134ea72cfa354325f17e5474f411787/transformed/jetified-core-1.8.0/AndroidManifest.xml:12:152-203
+389            android:stateNotNeeded="true" />
+389-->[com.google.android.play:core:1.8.0] /Users/horizongo/.gradle/caches/transforms-3/d134ea72cfa354325f17e5474f411787/transformed/jetified-core-1.8.0/AndroidManifest.xml:12:240-269
+390        <activity
+390-->[com.google.android.play:core:1.8.0] /Users/horizongo/.gradle/caches/transforms-3/d134ea72cfa354325f17e5474f411787/transformed/jetified-core-1.8.0/AndroidManifest.xml:13:5-226
+391            android:name="com.google.android.play.core.common.PlayCoreDialogWrapperActivity"
+391-->[com.google.android.play:core:1.8.0] /Users/horizongo/.gradle/caches/transforms-3/d134ea72cfa354325f17e5474f411787/transformed/jetified-core-1.8.0/AndroidManifest.xml:13:15-95
+392            android:enabled="false"
+392-->[com.google.android.play:core:1.8.0] /Users/horizongo/.gradle/caches/transforms-3/d134ea72cfa354325f17e5474f411787/transformed/jetified-core-1.8.0/AndroidManifest.xml:13:96-119
+393            android:exported="false"
+393-->[com.google.android.play:core:1.8.0] /Users/horizongo/.gradle/caches/transforms-3/d134ea72cfa354325f17e5474f411787/transformed/jetified-core-1.8.0/AndroidManifest.xml:13:120-144
+394            android:stateNotNeeded="true"
+394-->[com.google.android.play:core:1.8.0] /Users/horizongo/.gradle/caches/transforms-3/d134ea72cfa354325f17e5474f411787/transformed/jetified-core-1.8.0/AndroidManifest.xml:13:145-174
+395            android:theme="@style/Theme.PlayCore.Transparent" /> <!-- The service will be merged into the manifest of the hosting app. -->
+395-->[com.google.android.play:core:1.8.0] /Users/horizongo/.gradle/caches/transforms-3/d134ea72cfa354325f17e5474f411787/transformed/jetified-core-1.8.0/AndroidManifest.xml:13:175-224
+396        <service
+396-->[com.google.android.play:core:1.8.0] /Users/horizongo/.gradle/caches/transforms-3/d134ea72cfa354325f17e5474f411787/transformed/jetified-core-1.8.0/AndroidManifest.xml:16:5-145
+397            android:name="com.google.android.play.core.assetpacks.AssetPackExtractionService"
+397-->[com.google.android.play:core:1.8.0] /Users/horizongo/.gradle/caches/transforms-3/d134ea72cfa354325f17e5474f411787/transformed/jetified-core-1.8.0/AndroidManifest.xml:16:14-95
+398            android:enabled="false"
+398-->[com.google.android.play:core:1.8.0] /Users/horizongo/.gradle/caches/transforms-3/d134ea72cfa354325f17e5474f411787/transformed/jetified-core-1.8.0/AndroidManifest.xml:16:96-119
+399            android:exported="true" />
+399-->[com.google.android.play:core:1.8.0] /Users/horizongo/.gradle/caches/transforms-3/d134ea72cfa354325f17e5474f411787/transformed/jetified-core-1.8.0/AndroidManifest.xml:16:120-143
+400    </application>
+401
+402</manifest>

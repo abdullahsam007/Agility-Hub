@@ -1,0 +1,13 @@
+fr.skyost.rate_my_app-jetified-annotation-experimental-1.1.0-0 /Users/horizongo/.gradle/caches/transforms-3/257525afdcd2c9176fdc00010e8c4603/transformed/jetified-annotation-experimental-1.1.0/res
+fr.skyost.rate_my_app-jetified-window-java-1.0.0-beta04-1 /Users/horizongo/.gradle/caches/transforms-3/2a9cb8da4c17567c73c4ef57079eaf93/transformed/jetified-window-java-1.0.0-beta04/res
+fr.skyost.rate_my_app-jetified-window-1.0.0-beta04-2 /Users/horizongo/.gradle/caches/transforms-3/3e3ad297e857f2e98c129eded650d5ea/transformed/jetified-window-1.0.0-beta04/res
+fr.skyost.rate_my_app-core-1.6.0-3 /Users/horizongo/.gradle/caches/transforms-3/6f902b5ecec8c576a7373318ad266aaf/transformed/core-1.6.0/res
+fr.skyost.rate_my_app-jetified-core-1.8.0-4 /Users/horizongo/.gradle/caches/transforms-3/d134ea72cfa354325f17e5474f411787/transformed/jetified-core-1.8.0/res
+fr.skyost.rate_my_app-main-5 /Users/horizongo/.pub-cache/hosted/pub.dev/rate_my_app-1.1.2/android/src/main/res
+fr.skyost.rate_my_app-release-6 /Users/horizongo/.pub-cache/hosted/pub.dev/rate_my_app-1.1.2/android/src/release/res
+fr.skyost.rate_my_app-pngs-7 /Users/horizongo/Downloads/fitnessappcodewithoutinapp/build/rate_my_app/generated/res/pngs/release
+fr.skyost.rate_my_app-resValues-8 /Users/horizongo/Downloads/fitnessappcodewithoutinapp/build/rate_my_app/generated/res/resValues/release
+fr.skyost.rate_my_app-rs-9 /Users/horizongo/Downloads/fitnessappcodewithoutinapp/build/rate_my_app/generated/res/rs/release
+fr.skyost.rate_my_app-mergeReleaseResources-10 /Users/horizongo/Downloads/fitnessappcodewithoutinapp/build/rate_my_app/intermediates/incremental/release/mergeReleaseResources/merged.dir
+fr.skyost.rate_my_app-mergeReleaseResources-11 /Users/horizongo/Downloads/fitnessappcodewithoutinapp/build/rate_my_app/intermediates/incremental/release/mergeReleaseResources/stripped.dir
+fr.skyost.rate_my_app-merged_res-12 /Users/horizongo/Downloads/fitnessappcodewithoutinapp/build/rate_my_app/intermediates/merged_res/release

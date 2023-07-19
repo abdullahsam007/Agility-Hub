@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "1050394253474",
+    "project_id": "agility-hub",
+    "storage_bucket": "agility-hub.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1050394253474:android:4ca16927442f0e17d65ffb",
+        "android_client_info": {
+          "package_name": "com.fitness.workouts.weightloss"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1050394253474-npt78rf8gcb1cad3gokmceeh9thltkje.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.fitness.workouts.weightloss",
+            "certificate_hash": "ec1d5b228dd9a31c35f58bc1feb3e9dc00479e96"
+          }
+        },
+        {
+          "client_id": "1050394253474-24isrt5s1jko1i3d4jr09q369443civg.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAgM8w9kf_BgloVL7T78_JPZuoF3GzmEcA"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1050394253474-24isrt5s1jko1i3d4jr09q369443civg.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
